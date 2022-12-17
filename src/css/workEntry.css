@@ -4,6 +4,8 @@
     margin: auto;
     margin-right: 10px;
     transition: height 1s ease;
+    background-color:darkslategrey;
+    border-radius: 25px;
 }
 
 #imageContainer {
