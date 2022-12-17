@@ -6,7 +6,7 @@ function Header() {
     let currentSocial = 0
   
     return (
-      <div id="embedHolder" onMouseOver={() => {console.log("switch"); currentSocial = ((currentSocial < data.length) ? currentSocial + 1 : 0)}}>
+      <div id="embedHolder" onMouseOver={() => {console.log(`Switch ${currentSocial}`); currentSocial = ((currentSocial < data.length) ? currentSocial + 1 : 0)}}>
         <img
           src={`${process.env.PUBLIC_URL}images/${data[currentSocial].logo}`}
           width="100"
