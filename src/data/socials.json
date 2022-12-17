@@ -1,23 +1,32 @@
 [
     {
-        "site": "none",
-        "logo": "",
-        "name_prefix": "",
-        "name_suffix": "",
-        "link": ""
-    },
-    {
         "site": "twitter",
-        "logo": "",
         "name_prefix": "@",
         "name_suffix": "01",
         "link": "https://twitter.com/@panley01"
     },
     {
         "site": "discord",
-        "logo": "",
         "name_prefix": "",
         "name_suffix": "#8008",
         "link": "https://discord.com/users/249287049482338305"
+    },
+    {
+        "site": "github",
+        "name_prefix": "",
+        "name_suffix": "01",
+        "link": "https://github.com/panley01"
+    },
+    {
+        "site": "instagram",
+        "name_prefix": "_",
+        "name_suffix": "",
+        "link": "https://www.instagram.com/_panley/"
+    },
+    {
+        "site": "reddit",
+        "name_prefix": "u/",
+        "name_suffix": "01",
+        "link": "https://www.reddit.com/u/Panley01"
     }
 ]
