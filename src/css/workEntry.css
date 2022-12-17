@@ -1,7 +1,7 @@
 #embedHolder {
     text-align: left;
     float: right;
-    width: 1000px;
+    width: 600px;
     margin: auto;
     transition: height 1s ease-out;
 }
@@ -19,5 +19,5 @@
     transition: paddingBottom 1s ease-out;
     position: relative;
     left: 100px;
-    right: -110px;
+    width: 490px;
 }
