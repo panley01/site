@@ -22,7 +22,7 @@ function Header() {
     };
     
     return (
-      <h1
+      <div><h1
         id='header'
         onMouseEnter={() => {
           incrementCurrentSite();
@@ -33,10 +33,10 @@ function Header() {
           setSuffix(sites[currentSite].name_suffix);
         }}
       >
+        <h1 id='prefix'>{prefix}</h1><h1 id='main'>panley</h1><h1 id='suffix'>{suffix}</h1>
         <a href={link} target="_blank" rel="noreferrer">
-          {prefix}panley{suffix}
         </a>
-      </h1>
+      </h1></div>
     );
     
     

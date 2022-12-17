@@ -1,3 +1,15 @@
 #header {
     transition: all 1s ease;
 }
+
+#main {
+    position: relative
+}
+
+#prefix {
+    position: absolute; left: 0; transform: translate(0%); transition: transform 250ms;
+}
+
+#suffix {
+    position: absolute; right: 0; transform: translate(0%); transition: transform 250ms;
+}
