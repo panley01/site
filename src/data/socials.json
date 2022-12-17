@@ -1,5 +1,12 @@
 [
     {
+        "site": "none",
+        "logo": "",
+        "name_prefix": "",
+        "name_suffix": "",
+        "link": ""
+    },
+    {
         "site": "twitter",
         "logo": "",
         "name_prefix": "@",
