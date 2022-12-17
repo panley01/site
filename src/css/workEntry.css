@@ -9,7 +9,7 @@
 }
 
 #imageContainer {
-    margin-right: 500px;
+    float: left;
     transition-duration: 1s;
     transform-origin: top right;
     margin: auto;
