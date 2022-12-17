@@ -1,5 +1,21 @@
 [
     {
+        "company": "NASCAR",
+        "title": "Discord App Developer",
+        "image": "nascar.png",
+        "started": 1633042800,
+        "ended": 4128710400,
+        "description": "During the 2021 & 2022 race seasons, I adapted NASCAR's audio stream tech to be able to stream into Discord voice/stage channels. During the 2022 season, I expanded app functionality to have several public commands surfacing info about drivers & live play-by-play race updates, as part of a launch partnership with Discord's App Directory feature"
+    },
+    {
+        "company": "GamerSafer",
+        "title": "Product Manager",
+        "image": "gs.png",
+        "started": 1640995200,
+        "ended": 1664578800,
+        "description": "GamerSafer extended this opportunity to manage the expansion of their existing products into Discord's safety ecosystem. This scope includes Discord bot applications, user resources & development of existing & future tooling. Responsibilites include community outreach, cybersecurity & anti-abuse development, product planning & project management."
+    },
+    {
         "company": "Panley Entertainment",
         "title": "Sole Trader",
         "image": "panleyent.png",
