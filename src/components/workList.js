@@ -3,10 +3,11 @@ import WorkEntry from './workEntry'
 import data from '../data/workHistory.json'
 
 function workList() {
-    const spaces = data.map(({ company, title, image, started, ended, description }) => {
+    const spaces = data.map((item) => {
         return (
           <WorkEntry
-            entry={data}
+            entry={item}
+            key={item.company}
           />
         )
     })
