@@ -15,11 +15,13 @@ a:active { text-decoration: none; }
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: rgb(41, 22, 44);
   }
   
   .header {
     position: relative;
-    text-decoration: none; color: inherit;
+    background-color: rgb(41, 22, 44);
+    color: whitesmoke
   }
   
   .prefix {
@@ -28,8 +30,7 @@ a:active { text-decoration: none; }
     z-index: -1;
     transform: translate(0%);
     transition: transform 250ms;
-    text-decoration: none; color: inherit;
-    width: max-content;
+    color: whitesmoke
   }
   
   .header:hover .prefix {
@@ -42,8 +43,7 @@ a:active { text-decoration: none; }
     z-index: -1;
     transform: translate(0%);
     transition: transform 250ms;
-    text-decoration: none; color: inherit;
-    width: max-content;
+    color: whitesmoke
   }
   
   .header:hover .suffix {
