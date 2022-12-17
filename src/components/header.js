@@ -27,7 +27,7 @@ function Header() {
             incrementCurrentSite();
             setSite(sites[currentSite]);
           }}>
-          <a style={{color: 'whitesmoke', "background-color": 'rgb(13, 12, 14)'}} href={`${site.link}`}><span class="prefix">{site.name_prefix}</span>
+          <a  target="_blank" rel="noopener noreferrer" style={{color: 'whitesmoke', "background-color": 'rgb(13, 12, 14)'}} href={`${site.link}`}><span class="prefix">{site.name_prefix}</span>
             panley
           <span class="suffix">{site.name_suffix} {((iconMapping[site.site]) ? iconMapping[site.site] : '')}</span></a>
         </h1>
