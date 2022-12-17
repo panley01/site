@@ -2,7 +2,7 @@ import React from 'react';
 import WorkEntry from './workEntry'
 import data from '../data/workHistory.json'
 
-function workList() {
+function WorkList() {
     const spaces = data.map((item) => {
         return (
           <WorkEntry
@@ -19,4 +19,4 @@ function workList() {
     )
 }
   
-export default workList
+export default WorkList

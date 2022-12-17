@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../css/workEntry.css'
 
-function workEntry({entry}) {
+function WorkEntry({entry}) {
     
   const [isShown, setIsShown] = useState(false)
   
@@ -25,4 +25,4 @@ function workEntry({entry}) {
   )
 }
 
-export default workEntry
+export default WorkEntry
