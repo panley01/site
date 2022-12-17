@@ -1,6 +1,6 @@
 import './App.css';
 import WorkList from './components/workList.js'
-import Header from './components/header';
+import InfiniteLooper from './components/header';
 
 function App() {
   return (
