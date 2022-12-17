@@ -16,19 +16,17 @@ function Header() {
     };
     
     return (
-      <h1>
-        <div
-          id='header'
+      <div class="container">
+        <h1 class="header"
           onMouseEnter={() => {
             incrementCurrentSite();
             setSite(sites[currentSite]);
-          }}
-        >
-          <h1 id='prefix'>{site.prefix}</h1><h1 id='main'>panley</h1><h1 id='suffix'>{site.suffix}</h1>
-          <a href={site.link} target="_blank" rel="noreferrer">
-          </a>
-        </div>
-      </h1>
+          }}>
+          <span class="prefix">{site.prefix}</span>
+            panley
+          <span class="suffix">{site.suffix}</span>
+        </h1>
+      </div>
     );
 }
 
