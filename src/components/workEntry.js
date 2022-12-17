@@ -15,7 +15,7 @@ function workEntry({entry}) {
         id="workImage"
       />
       <h2>{entry.company}{' • '}{entry.title}</h2>
-      <h3>{`${startDate.toDateString().split().slice(1).join(' ')} - ${((endDate > today) ? 'Current' : endDate.toDateString().split().slice(1).join(' '))}`}</h3>
+      <h3>{`${startDate.toDateString()} - ${((endDate > today) ? 'Current' : endDate.toDateString())}`}</h3>
       <div>{entry.description}</div>
     </div>
   )
