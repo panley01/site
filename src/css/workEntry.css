@@ -16,8 +16,4 @@
 
 #textContainer {
     transition: opacity 1s ease-out;
-    transition: paddingBottom 1s ease-out;
-    position: relative;
-    left: 100px;
-    width: 490px;
 }
