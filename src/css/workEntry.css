@@ -1,8 +1,8 @@
 #embedHolder {
     text-align: left;
-    float: right;
     width: 600px;
     margin: auto;
+    margin-right: 10px;
     transition: height 1s ease-out;
 }
 
