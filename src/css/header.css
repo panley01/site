@@ -15,12 +15,13 @@ a:active { text-decoration: none; }
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(41, 22, 44);
+    background-color: rgb(13, 12, 14);
   }
   
   .header {
     position: relative;
-    background-color: rgb(41, 22, 44);
+    background-color: rgb(13, 12, 14);
+    z-index: 10;
     color: whitesmoke
   }
   
