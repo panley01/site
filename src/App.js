@@ -5,7 +5,7 @@ import Header from './components/header';
 function App() {
   return (
     <div className="App">
-      <svg src={`${process.env.PUBLIC_URL}/wave.svg`}></svg>
+      <img src={`${process.env.PUBLIC_URL}/wave.svg`}></img>
       <Header />
       <WorkList />
     </div>
