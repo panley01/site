@@ -44,7 +44,7 @@ a:active { text-decoration: none; }
     z-index: -1;
     transform: translate(0%);
     transition: transform 250ms;
-    width: fit-content;
+    width: max-content;
     color: whitesmoke
   }
   
