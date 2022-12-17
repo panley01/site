@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/header.css'
 import sites from '../data/socials.json'
-import { FaDiscord, FaGithub, FaInstagram, FaReddit, FaTwitter } from 'react-icons/fa'
+import { FaDiscord, FaGithub, FaInstagram, FaReddit, FaSteam, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 function Header() {
     const [currentSite, setCurrentSite] = React.useState(0);
@@ -11,7 +11,9 @@ function Header() {
         discord: <FaDiscord />,
         github: <FaGithub />,
         instagram: <FaInstagram />,
-        reddit: <FaReddit />
+        reddit: <FaReddit />,
+        youtube: <FaYoutube />,
+        steam: <FaSteam />
     }
     
     const incrementCurrentSite = () => {
