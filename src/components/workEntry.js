@@ -10,13 +10,13 @@ function WorkEntry({entry}) {
   const today = new Date()
 
   return (
-    <div id="embedHolder" onMouseEnter={() => setIsShown(!isShown)}>
+    <div id="embedHolder" onMouseEnter={() => {console.log("entry"); setIsShown(true)}} onMouseLeave={() => {console.log("exit"); setIsShown(false)}}>
       <img
         src={`${process.env.PUBLIC_URL}images/${entry.image}`}
         width="100"
         height="100"
         alt=""
-        style={{transform: `${isShown ? 'scale(1.5,1.5)' : null}`}}
+        style={{transform: `${isShown ? 'scale(1.5,1.5)' : null}`, float: "left", margin: "0 15px 0 0"}}
       />
       <h2>{entry.company}{' • '}{entry.title}</h2>
       <h3>{`${startDate.toDateString()} - ${((endDate > today) ? 'Current' : endDate.toDateString())}`}</h3>
