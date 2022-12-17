@@ -3,6 +3,7 @@
     float: right;
     width: 1000px;
     margin: auto;
+    transition: height 1s ease-out;
 }
 
 #imageContainer {
