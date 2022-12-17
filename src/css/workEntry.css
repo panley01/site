@@ -10,5 +10,5 @@
 }
 
 #textContainer {
-    transition-duration: 1s;
+    transition: opacity 1s ease-out;
 }

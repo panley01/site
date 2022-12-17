@@ -21,7 +21,7 @@ function WorkEntry({entry}) {
       />
       <h2>{entry.company}{' • '}{entry.title}</h2>
       <h3>{`${startDate.toDateString()} - ${((endDate > today) ? 'Current' : endDate.toDateString())}`}</h3>
-      <div style={{transform: `${isShown ? 'opacity(1)' : 'opacity(0)'}`}} id="textContainer">{entry.description}</div>
+      <div style={{opacity: `${isShown ? '1' : '0'}`}} id="textContainer">{entry.description}</div>
     </div>
   )
 }
