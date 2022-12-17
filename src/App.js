@@ -1,10 +1,11 @@
 import './App.css';
 import WorkList from './components/workList.js'
-import InfiniteLooper from './components/header';
+import Tagline from './components/header';
 
 function App() {
   return (
     <div className="App">
+      <Tagline />
       <WorkList />
     </div>
   );
