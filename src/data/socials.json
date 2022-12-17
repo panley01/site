@@ -18,6 +18,12 @@
         "link": "https://github.com/panley01"
     },
     {
+        "site": "hackerone",
+        "name_prefix": "",
+        "name_suffix": "",
+        "link": "https://hackerone.com/panley"
+    },
+    {
         "site": "instagram",
         "name_prefix": "_",
         "name_suffix": "",
@@ -40,5 +46,17 @@
         "name_prefix": "",
         "name_suffix": "01",
         "link": "steam://url/SteamIDPage/76561198010074009"
+    },
+    {
+        "site": "twitch",
+        "name_prefix": "",
+        "name_suffix": "01",
+        "link": "https://www.twitch.tv/panley01"
+    },
+    {
+        "site": "linkedin",
+        "name_prefix": "",
+        "name_suffix": "01",
+        "link": "https://www.linkedin.com/in/panley-l-172250254/"
     }
 ]
