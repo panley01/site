@@ -22,22 +22,21 @@ function Header() {
     };
     
     return (
-        <div id='header'>
-            <h1
-                onMouseEnter={() => {
-                incrementCurrentSite();
-                setSite(sites[currentSite].site);
-                setIcon(sites[currentSite].logo);
-                setLink(sites[currentSite].link);
-                setPrefix(sites[currentSite].name_prefix);
-                setSuffix(sites[currentSite].name_suffix);
-                }}
-            >
-                <a href={link} target="_blank" rel="noreferrer">
-                {prefix}panley{suffix}
-                </a>
-            </h1>
-        </div>
+      <h1
+        id='header'
+        onMouseEnter={() => {
+          incrementCurrentSite();
+          setSite(sites[currentSite].site);
+          setIcon(sites[currentSite].logo);
+          setLink(sites[currentSite].link);
+          setPrefix(sites[currentSite].name_prefix);
+          setSuffix(sites[currentSite].name_suffix);
+        }}
+      >
+        <a href={link} target="_blank" rel="noreferrer">
+          {prefix}panley{suffix}
+        </a>
+      </h1>
     );
     
     
