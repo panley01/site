@@ -8,7 +8,8 @@
   
   .header {
     position: relative;
-    background-color: white;
+    text-decoration: none;
+    color: whitesmoke
   }
   
   .prefix {
@@ -17,6 +18,9 @@
     z-index: -1;
     transform: translate(0%);
     transition: transform 250ms;
+    text-decoration: none;
+    color: whitesmoke;
+    width: max-content;
   }
   
   .header:hover .prefix {
@@ -29,6 +33,9 @@
     z-index: -1;
     transform: translate(0%);
     transition: transform 250ms;
+    text-decoration: none;
+    color: whitesmoke;
+    width: max-content;
   }
   
   .header:hover .suffix {
