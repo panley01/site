@@ -19,5 +19,6 @@
     transition: max-height 1s ease-out;
     position: relative;
     overflow: hidden;
+    padding-left: 100px;
     width: 490px;
 }
