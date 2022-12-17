@@ -13,6 +13,7 @@
     transition-duration: 1s;
     transform-origin: top right;
     margin: auto;
+    width: 200px;
     position: relative;
     left: -10px;
 }
