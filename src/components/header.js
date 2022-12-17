@@ -27,9 +27,9 @@ function Header() {
             incrementCurrentSite();
             setSite(sites[currentSite]);
           }}>
-          <a href={site.name_link}><span class="prefix">{site.name_prefix}</span>
+          <a href={`${site.link}`}><span class="prefix">{site.name_prefix}</span>
             panley
-          <span class="suffix">{site.name_suffix}</span></a>
+          <span class="suffix">{site.name_suffix} {((iconMapping[site.site]) ? iconMapping[site.site] : '')}</span></a>
         </h1>
       </div>
     );
