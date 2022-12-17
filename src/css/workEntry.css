@@ -13,7 +13,6 @@
     transition-duration: 1s;
     transform-origin: top right;
     margin: auto;
-    width: 200px;
     position: relative;
     left: -10px;
 }
@@ -22,6 +21,6 @@
     transition: all 1s ease;
     position: relative;
     overflow: hidden;
-    padding-left: 100px;
+    padding-left: 200px;
     width: 490px;
 }
