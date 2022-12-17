@@ -1,15 +1,18 @@
 #embedHolder {
     text-align: left;
     float: right;
+    width: 800px;
+    margin: auto;
 }
 
 #imageContainer {
     float: left;
     padding-left: 110px;
     padding-bottom: 110px;
-    padding-right: 10px;
     transition-duration: 1s;
-    transform-origin:top right;
+    transform-origin: top right;
+    position: relative;
+    left: -10px;
 }
 
 #textContainer {
