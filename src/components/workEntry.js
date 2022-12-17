@@ -8,6 +8,20 @@ function WorkEntry({entry}) {
   const startDate = new Date(entry.started)
   const endDate = new Date(entry.ended)
   const today = new Date()
+  const months = {
+    1: 'January',
+    2: 'February',
+    3: 'March',
+    4: 'April',
+    5: 'May',
+    6: 'June',
+    7: 'July',
+    8: 'August',
+    9: 'September',
+    10: 'October',
+    11: 'November',
+    12: 'December'
+  }
 
   return (
     <div id="embedHolder" onMouseEnter={() => {console.log("entry"); setIsShown(true)}} onMouseLeave={() => {console.log("exit"); setIsShown(false)}}>
@@ -20,7 +34,7 @@ function WorkEntry({entry}) {
         id="imageContainer"
       />
       <h2>{entry.company}{' • '}{entry.title}</h2>
-      <h3>{`${startDate.toDateString()} - ${((endDate > today) ? 'Current' : endDate.toDateString())}`}</h3>
+      <h3>{`${months[startDate.getMonth()]} ${startDate.getFullYear()} - ${((endDate > today) ? 'Current' : (months[endDate.getMonth()] + ' ' + endDate.getFullYear().toString()))}`}</h3>
       <div style={{opacity: `${isShown ? '1' : '0'}`}} id="textContainer">{entry.description}</div>
     </div>
   )
