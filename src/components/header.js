@@ -1,11 +1,15 @@
 import React from 'react';
 import '../css/header.css'
 import sites from '../data/socials.json'
-import { FaTwitter } from 'react-icons/fa'
+import { FaDiscord, FaTwitter } from 'react-icons/fa'
 
 function Header() {
     const [currentSite, setCurrentSite] = React.useState(0);
     const [site, setSite] = React.useState(sites[0]); // is the default value
+    const iconMapping = {
+        twitter: <FaTwitter />,
+        discord: <FaDiscord />
+    }
     
     const incrementCurrentSite = () => {
       if (currentSite < 2) {
@@ -23,7 +27,7 @@ function Header() {
             incrementCurrentSite();
             setSite(sites[currentSite]);
           }}>
-          <span class="prefix"><FaTwitter /> {site.name_prefix}</span>
+          <span class="prefix">{site.name_prefix}{((iconMapping.hasOwnProperty(site.name_site)) ? iconMapping[site.name_site] : '')}</span>
             panley
           <span class="suffix">{site.name_suffix}</span>
         </h1>
