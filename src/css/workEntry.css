@@ -15,7 +15,8 @@
 }
 
 #textContainer {
-    transition: all 1s ease-out;
+    transition: opacity 1s ease 0.5s;
+    transition: max-height 1s ease;
     position: relative;
     overflow: hidden;
     padding-left: 100px;
