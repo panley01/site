@@ -3,7 +3,7 @@
     width: 600px;
     margin: auto;
     margin-right: 10px;
-    transition: height 1s ease-out;
+    transition: height 1s ease;
 }
 
 #imageContainer {
@@ -15,7 +15,7 @@
 }
 
 #textContainer {
-    transition: all 1s ease-out;
+    transition: all 1s ease;
     position: relative;
     overflow: hidden;
     padding-left: 100px;
