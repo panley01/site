@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background-color: rgb(13, 12, 14);
-  width: 100vw; overflow-x: hidden;
+  min-height: 100vh;
 }
 
 .App-header {
@@ -17,4 +17,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+#root {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
 }
