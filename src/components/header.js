@@ -15,7 +15,7 @@ function Header() {
     }
     
     const incrementCurrentSite = () => {
-      if (currentSite < 2) {
+      if (currentSite < sites.length - 1) {
         setCurrentSite(currentSite + 1);
       } else {
         // reset to 1 if reached the end
