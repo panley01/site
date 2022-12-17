@@ -27,9 +27,9 @@ function Header() {
             incrementCurrentSite();
             setSite(sites[currentSite]);
           }}>
-          <span class="prefix">{site.name_prefix}{((iconMapping.hasOwnProperty(site.name_site)) ? iconMapping[site.name_site] : '')}</span>
+          <a href={site.name_link}><span class="prefix">{site.name_prefix}</span>
             panley
-          <span class="suffix">{site.name_suffix}</span>
+          <span class="suffix">{site.name_suffix}</span></a>
         </h1>
       </div>
     );
