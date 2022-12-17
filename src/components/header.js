@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/workEntry.css'
+import '../css/header.css'
 import sites from '../data/socials.json'
 
 function Header() {
@@ -22,8 +22,9 @@ function Header() {
     };
     
     return (
-      <button
-        onMouseOver={() => {
+      <h1
+        id='header'
+        onMouseEnter={() => {
           incrementCurrentSite();
           setSite(sites[currentSite].site);
           setIcon(sites[currentSite].logo);
@@ -35,7 +36,7 @@ function Header() {
         <a href={link} target="_blank" rel="noreferrer">
           {prefix}panley{suffix}
         </a>
-      </button>
+      </h1>
     );
     
     
