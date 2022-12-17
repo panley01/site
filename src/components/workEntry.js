@@ -16,7 +16,8 @@ function WorkEntry({entry}) {
         width="100"
         height="100"
         alt=""
-        style={{transform: `${isShown ? 'scale(1.5,1.5)' : 'scale(1,1)'}`, float: "left", margin: "0 15px 0 0", "transition-duration": "1s;"}}
+        style={{transform: `${isShown ? 'scale(1.5,1.5)' : 'scale(1,1)'}`}}
+        id="imageContainer"
       />
       <h2>{entry.company}{' • '}{entry.title}</h2>
       <h3>{`${startDate.toDateString()} - ${((endDate > today) ? 'Current' : endDate.toDateString())}`}</h3>
