@@ -4,7 +4,11 @@
 
 #imageContainer {
     float: left;
-    margin: 0 15px 0 0;
+    margin: 0 15px 0 100;
     transition-duration: 1s;
     transform-origin:top right;
+}
+
+#textContainer {
+    transition-duration: 1s;
 }

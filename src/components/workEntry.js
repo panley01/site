@@ -16,12 +16,12 @@ function WorkEntry({entry}) {
         width="100"
         height="100"
         alt=""
-        style={{transform: `${isShown ? 'scale(1.5,1.5)' : 'scale(1,1)'}`}}
+        style={{transform: `${isShown ? 'scale(2,2)' : 'scale(1,1)'}`}}
         id="imageContainer"
       />
       <h2>{entry.company}{' • '}{entry.title}</h2>
       <h3>{`${startDate.toDateString()} - ${((endDate > today) ? 'Current' : endDate.toDateString())}`}</h3>
-      <div>{entry.description}</div>
+      <div style={{transform: `${isShown ? 'opacity(1)' : 'opacity(0)'}`}} id="textContainer">{entry.description}</div>
     </div>
   )
 }
