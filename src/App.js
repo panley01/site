@@ -5,7 +5,7 @@ import Tagline from './components/header';
 function App() {
   return (
     <div className="App">
-      <title id='title'>Panley</title>
+      <h1 id='title'>Panley</h1>
       <WorkList />
     </div>
   );
