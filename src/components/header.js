@@ -1,22 +1,46 @@
 import React from 'react';
-import data from '../data/socials.json';
+import '../css/socials.css'
 
-function Header() {
-    
-    let currentSocial = 0
-  
+function InfiniteLooper({speed,direction,children}) {
+    const [looperInstances, setLooperInstances] = useState(1);
+    const outerRef = useRef<HTMLDivElement>(null);
+    const innerRef = useRef<HTMLDivElement>(null);
+
+    const setupInstances = useCallback(() => {
+        if (!innerRef?.current || !outerRef?.current) return;
+
+        const { width } = innerRef.current.getBoundingClientRect();
+
+        const { width: parentWidth } = outerRef.current.getBoundingClientRect();
+
+        const instanceWidth = width / innerRef.current.children.length;
+
+        if (width < parentWidth + instanceWidth) {
+            setLooperInstances(looperInstances + Math.ceil(parentWidth / width));
+        }
+  }, [looperInstances]);
+
+    useEffect(() => {
+        setupInstances();
+    }, []);
+
     return (
-      <div id="embedHolder" onMouseOver={() => {console.log(`Switch ${currentSocial}`); currentSocial = ((currentSocial < data.length) ? currentSocial + 1 : 0)}}>
-        <img
-          src={`${process.env.PUBLIC_URL}images/${data[currentSocial].logo}`}
-          width="100"
-          height="100"
-          alt=""
-          id="imageContainer"
-        />
-        <a href={data[currentSocial].link}><h2>{data[currentSocial].name_prefix}{'Panley'}{data[currentSocial].name_suffix}</h2></a>
+      <div className="looper" ref={outerRef}>
+        <div className="looper__innerList" ref={innerRef}>
+          {[...Array(looperInstances)].map((_, ind) => (
+            <div
+              key={ind}
+              className="looper__listInstance"
+              style={{
+                animationDuration: `${speed}s`,
+                animationDirection: direction === "right" ? "reverse" : "normal",
+              }}
+            >
+              {children}
+            </div>
+          ))}
+        </div>
       </div>
-    )
+    );
   }
-  
-  export default Header
+export default InfiniteLooper
