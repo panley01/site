@@ -5,7 +5,7 @@ import Header from './components/header';
 function App() {
   return (
     <div className="App">
-      <img style={{width: '100vw'}} src={`${process.env.PUBLIC_URL}/wave.svg`} />
+      <div style={{'background-size': 'contain', 'background-image': `url("${process.env.PUBLIC_URL}/wave.svg")`}}></div>
       <Header />
       <WorkList />
     </div>
