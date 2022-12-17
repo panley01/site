@@ -10,7 +10,7 @@ function WorkEntry({entry}) {
   const today = new Date()
 
   return (
-    <div id="embedHolder" onMouseOver={() => setIsShown(!isShown)}>
+    <div id="embedHolder" onMouseEnter={() => setIsShown(true)} onmouseleave={() => setIsShown(false)}>
       <img
         src={`${process.env.PUBLIC_URL}images/${entry.image}`}
         width={isShown ? 200 : 100}
