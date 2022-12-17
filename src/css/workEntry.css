@@ -8,8 +8,6 @@
 
 #imageContainer {
     float: left;
-    padding-left: 110px;
-    padding-bottom: 110px;
     transition-duration: 1s;
     transform-origin: top right;
     position: relative;
