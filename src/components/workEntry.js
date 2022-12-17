@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../css/workEntry.css'
 
 function workEntry({entry}) {
+    
+  const [isShown, setIsShown] = useState(false)
+  
   const startDate = new Date(entry.started)
   const endDate = new Date(entry.ended)
   const today = new Date()
+
   return (
-    <div id="embedHolder">
+    <div id="embedHolder" onMouseOver={() => setIsShown(!isShown)}>
       <img
         src={`${process.env.PUBLIC_URL}images/${entry.image}`}
-        width="300"
-        height="300"
+        width={isShown ? 200 : 100}
+        height={isShown ? 200 : 100}
         alt=""
         id="workImage"
       />
