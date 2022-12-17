@@ -18,5 +18,6 @@
     transition: opacity 1s ease-out;
     transition: max-height 1s ease-out;
     position: relative;
+    overflow: hidden;
     width: 490px;
 }
