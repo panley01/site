@@ -28,5 +28,17 @@
         "name_prefix": "u/",
         "name_suffix": "01",
         "link": "https://www.reddit.com/u/Panley01"
+    },
+    {
+        "site": "youtube",
+        "name_prefix": "@",
+        "name_suffix": "01",
+        "link": "https://youtube.com/channel/UCrt0BU-Pa2ZQkmvVHNOzVLQ"
+    },
+    {
+        "site": "steam",
+        "name_prefix": "@",
+        "name_suffix": "01",
+        "link": "steam://url/SteamIDPage/76561198010074009"
     }
 ]
