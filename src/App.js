@@ -1,6 +1,5 @@
 import './App.css';
 import WorkList from './components/workList.js'
-import Tagline from './components/header';
 
 function App() {
   return (
