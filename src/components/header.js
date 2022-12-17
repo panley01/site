@@ -22,9 +22,9 @@ function Header() {
             incrementCurrentSite();
             setSite(sites[currentSite]);
           }}>
-          <span class="prefix">{site.prefix}</span>
+          <span class="prefix">{site.name_prefix}</span>
             panley
-          <span class="suffix">{site.suffix}</span>
+          <span class="suffix">{site.name_suffix}</span>
         </h1>
       </div>
     );
