@@ -1,6 +1,5 @@
 import React, {useState, useRef, useCallback, useEffect} from 'react';
 import '../css/socials.css'
-import { useState } from 'react';
 
 function InfiniteLooper({speed,direction,children}) {
     const [looperInstances, setLooperInstances] = useState(1);
