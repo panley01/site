@@ -1,6 +1,6 @@
 #embedHolder {
     text-align: left;
-    width: 600px;
+    width: 700px;
     margin: auto;
     margin-right: 10px;
     transition: height 1s ease;
@@ -21,6 +21,6 @@
     position: relative;
     overflow: hidden;
     padding-left: 100px;
-    width: 490px;
+    width: 590px;
     padding-bottom: 10px;
 }
