@@ -8,6 +8,22 @@
         "description": "During the 2021 & 2022 race seasons, I adapted NASCAR's audio stream tech to be able to stream into Discord voice/stage channels. During the 2022 season, I expanded app functionality to have several public commands surfacing info about drivers & live play-by-play race updates, as part of a launch partnership with Discord's App Directory feature"
     },
     {
+        "company": "StockX",
+        "title": "Discord App Developer",
+        "image": "stockx.png",
+        "started": 1656630000,
+        "ended": 1664578800,
+        "description": "The opportunity to develop a Discord App for StockX was offered via Discord, StockX was selected to be a launch partner for Discord's App Directory feature. For this project, I developed a Discord App that allowed users to play in weekly trivia, enter giveaways and get info about the latest StockX drops. The StockX DropBot was featured in the App Dirctory on launch & rapidly obtained thousands of users."
+    },
+    {
+        "company": "Magoosh",
+        "title": "Discord App Developer",
+        "image": "magoosh.png",
+        "started": 1656630000,
+        "ended": 1664578800,
+        "description": "The opportunity to develop a Discord App for Magoosh was offered via Discord, Magoosh was selected to be a launch partner for Discord's App Directory feature. Magoosh was aiming to bring more educational content to Discord, I aided them in doing this by importing questions into Discord, surfacing them as daily challenges. Users of the Magooshy app could do daily & on demand questions & track their progress on leaderboards."
+    },
+    {
         "company": "GamerSafer",
         "title": "Product Manager",
         "image": "gs.png",
