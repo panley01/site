@@ -4,7 +4,7 @@
 
 #imageContainer {
     float: left;
-    margin: 0 15px 0 100;
+    margin: 0 15px 10 110;
     transition-duration: 1s;
     transform-origin:top right;
 }
