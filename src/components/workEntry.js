@@ -22,7 +22,7 @@ function WorkEntry({entry}) {
       />
       <h2>{entry.company}{' • '}{entry.title}</h2>
       <h3>{`${months[startDate.getMonth()]} ${startDate.getFullYear()} - ${((endDate > today) ? 'Current' : (months[endDate.getMonth()] + ' ' + endDate.getFullYear().toString()))}`}</h3>
-      <div style={{opacity: `${isShown ? '1' : '0'}`}} id="textContainer">{entry.description}</div>
+      <div style={{opacity: `${isShown ? '1' : '0'}`, 'max-height': `${isShown ? 'auto' : '0'}`}} id="textContainer">{entry.description}</div>
     </div>
   )
 }
