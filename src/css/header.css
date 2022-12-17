@@ -1,6 +1,7 @@
 #header {
     transition: all 1s ease;
-    width:fit-content
+    width:fit-content;
+    display: flex; flex-direction: row; justify-content: center;
 }
 
 #main {
