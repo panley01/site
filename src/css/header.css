@@ -30,13 +30,13 @@ a:active { text-decoration: none; }
     left: 0;
     z-index: -1;
     transform: translate(0%);
-    transform: opacity(0);
-    transition: transform 250ms;
+    opacity: 0;
+    transition: transform 250ms, opacity 200ms; ;
     color: whitesmoke
   }
   
   .header:hover .prefix {
-    transform: opacity(1);
+    opacity: 1;
     transform: translate(-100%);
   }
   
@@ -45,13 +45,13 @@ a:active { text-decoration: none; }
     right: 0;
     z-index: -1;
     transform: translate(0%);
-    transform: opacity(0);
-    transition: transform 250ms;
+    opacity: 0;
+    transition: transform 250ms, opacity 200ms; ;
     width: max-content;
     color: whitesmoke
   }
   
   .header:hover .suffix {
-    transform: opacity(1);
+    opacity: 1;
     transform: translate(100%);
   }
