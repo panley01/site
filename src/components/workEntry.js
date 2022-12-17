@@ -5,8 +5,8 @@ function WorkEntry({entry}) {
     
   const [isShown, setIsShown] = useState(false)
   
-  const startDate = new Date(entry.started)
-  const endDate = new Date(entry.ended)
+  const startDate = new Date(entry.started * 1000)
+  const endDate = new Date(entry.ended * 1000)
   const today = new Date()
   const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
