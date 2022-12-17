@@ -6,6 +6,7 @@
     transition: height 1s ease;
     background-color:darkslategrey;
     border-radius: 25px;
+    padding: 10 10 10 10;
 }
 
 #imageContainer {
