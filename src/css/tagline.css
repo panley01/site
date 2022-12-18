@@ -14,6 +14,7 @@ a:active { text-decoration: none; }
     float: left;
     justify-content: left;
     align-items: left;
+    margin-left: 10px;
     background-color: rgb(13, 12, 14);
   }
   
