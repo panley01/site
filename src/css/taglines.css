@@ -14,6 +14,7 @@ a:active { text-decoration: none; }
     flex-direction: row;
     justify-content: left;
     align-items: left;
+    float: left;
     background-color: rgb(13, 12, 14);
   }
   
