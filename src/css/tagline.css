@@ -10,7 +10,7 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
 .tagcontainer {
-    width: 300px;
+    width: max-content;
     float: left;
     justify-content: left;
     align-items: left;
