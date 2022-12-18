@@ -56,3 +56,19 @@ a:active { text-decoration: none; }
     opacity: 1;
     transform: translate(100%);
   }
+
+.contactcontainer {
+    width: max-content;
+    float: left;
+    justify-content: left;
+    align-items: left;
+    margin-left: 10px;
+    background-color: rgb(13, 12, 14);
+    }
+
+    .contactheader {
+        position: relative;
+        background-color: rgb(13, 12, 14);
+        z-index: 10;
+        color: whitesmoke
+    }

@@ -1,7 +1,8 @@
 import './App.css';
 import WorkList from './components/workList.js'
 import Header from './components/header'
-import Tagline from './components/taglines';
+import Tagline from './components/taglines'
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <img style={{width: '100vw'}} src={`${process.env.PUBLIC_URL}/wave.svg`} />
       <Header />
       <Tagline />
+      <Contact />
       <WorkList />
     </div>
   );
