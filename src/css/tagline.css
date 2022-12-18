@@ -9,20 +9,20 @@ a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
 
-.container {
+.tagcontainer {
     width: 100vw;
     float: left;
     background-color: rgb(13, 12, 14);
   }
   
-  .header {
+  .tagheader {
     position: relative;
     background-color: rgb(13, 12, 14);
     z-index: 10;
     color: whitesmoke
   }
   
-  .suffix {
+  .tagsuffix {
     position: absolute;
     right: 0;
     z-index: -1;
@@ -33,7 +33,7 @@ a:active { text-decoration: none; }
     color: whitesmoke
   }
   
-  .header:hover .suffix {
+  .tagheader:hover .tagsuffix {
     opacity: 0;
     transform: translate(0%);
   }
@@ -49,7 +49,7 @@ a:active { text-decoration: none; }
     color: whitesmoke
   }
   
-  .header:hover .forhire {
+  .tagheader:hover .forhire {
     opacity: 1;
     transform: translate(100%);
   }
