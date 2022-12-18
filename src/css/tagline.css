@@ -10,8 +10,12 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
 .tagcontainer {
-    width: 100vw;
-    float: left;
+    width: 300px;
+    display: flex;
+    margin: auto;
+    margin-left: 10px;
+    justify-content: left;
+    align-items: left;
     background-color: rgb(13, 12, 14);
   }
   
@@ -36,4 +40,20 @@ a:active { text-decoration: none; }
   .tagheader:hover .tagsuffix {
     opacity: 0;
     transform: translate(0%);
+  }
+  
+  .forhire {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    transform: translate(0%);
+    opacity: 0;
+    transition: transform 250ms, opacity 200ms; ;
+    width: max-content;
+    color: whitesmoke
+  }
+  
+  .tagheader:hover .forhire {
+    opacity: 1;
+    transform: translate(100%);
   }
