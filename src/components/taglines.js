@@ -22,7 +22,8 @@ function Tagline() {
             incrementCurrentLine();
             setLine(lines[currentLine]);
           }}>
-            And I'm <span class="forhire">{line}</span> for hire.
+            And I'm ͏
+          <span class="forhire">{line}</span><span class="tagsuffix">for hire.</span>
         </h1>
       </div>
     );
