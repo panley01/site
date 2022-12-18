@@ -11,10 +11,7 @@ a:active { text-decoration: none; }
 
 .tagcontainer {
     width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    float: left;
     background-color: rgb(13, 12, 14);
   }
   
@@ -39,20 +36,4 @@ a:active { text-decoration: none; }
   .tagheader:hover .tagsuffix {
     opacity: 0;
     transform: translate(0%);
-  }
-  
-  .forhire {
-    position: absolute;
-    right: 0;
-    z-index: -1;
-    transform: translate(0%);
-    opacity: 0;
-    transition: transform 250ms, opacity 200ms; ;
-    width: max-content;
-    color: whitesmoke
-  }
-  
-  .tagheader:hover .forhire {
-    opacity: 1;
-    transform: translate(100%);
   }
