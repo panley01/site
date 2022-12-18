@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/header.css'
 import sites from '../data/socials.json'
 import { FaDiscord, FaGithub, FaInstagram, FaLinkedin, FaReddit, FaSteam, FaTwitch, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { HiOutlineMail } from 'react-icons/hi'
 import { SiHackerone } from 'react-icons/si'
 
 function Header() {
@@ -17,7 +18,8 @@ function Header() {
         steam: <FaSteam />,
         hackerone: <SiHackerone />,
         twitch: <FaTwitch />,
-        linkedin: <FaLinkedin />
+        linkedin: <FaLinkedin />,
+        email: <HiOutlineMail />
     }
     
     const incrementCurrentSite = () => {
