@@ -12,9 +12,8 @@ a:active { text-decoration: none; }
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    align-items: left;
-    float: left;
+    margin: auto;
+    margin-left: 10px;
     background-color: rgb(13, 12, 14);
   }
   
