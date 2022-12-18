@@ -22,7 +22,7 @@ function Tagline() {
             incrementCurrentLine();
             setLine(lines[currentLine]);
           }}>
-            And I'm 
+            And I'm ͏
           <span class="suffix">{line}</span>
         </h1>
       </div>
