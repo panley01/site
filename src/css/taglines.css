@@ -28,7 +28,7 @@ a:active { text-decoration: none; }
     position: absolute;
     right: 0;
     z-index: -1;
-    transform: translate(100%);
+    transform: translate(0%);
     opacity: 1;
     transition: transform 250ms, opacity 200ms; ;
     width: max-content;
@@ -37,7 +37,7 @@ a:active { text-decoration: none; }
   
   .header:hover .forhire {
     opacity: 0;
-    transform: translate(0%);
+    transform: translate(-100%);
   }
   
   .suffix {
