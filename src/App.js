@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <img style={{width: '100vw'}} src={`${process.env.PUBLIC_URL}/wave.svg`} />
       <Header />
-      <Tagline />
       <WorkList />
     </div>
   );
