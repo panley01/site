@@ -60,8 +60,6 @@ a:active { text-decoration: none; }
 .contactcontainer {
     width: max-content;
     float: left;
-    justify-content: left;
-    align-items: left;
     margin-left: 10px;
     margin-top: 50px;
     background-color: rgb(13, 12, 14);
