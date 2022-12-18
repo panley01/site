@@ -11,9 +11,7 @@ a:active { text-decoration: none; }
 
 .tagcontainer {
     width: 300px;
-    display: flex;
-    margin: auto;
-    margin-left: 10px;
+    float: left;
     justify-content: left;
     align-items: left;
     background-color: rgb(13, 12, 14);
