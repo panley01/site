@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/header.css'
+import '../css/tagline.css'
 import lines from '../data/taglines.json'
 
 function Tagline() {
@@ -23,7 +23,7 @@ function Tagline() {
             setLine(lines[currentLine]);
           }}>
             And I'm ͏
-          <span class="suffix">{line}</span>
+          <span class="suffix">{line}</span><span class="forhire">for hire.</span>
         </h1>
       </div>
     );

@@ -1,0 +1,55 @@
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.container {
+    width: 100vw;
+    float: left;
+    background-color: rgb(13, 12, 14);
+  }
+  
+  .header {
+    position: relative;
+    background-color: rgb(13, 12, 14);
+    z-index: 10;
+    color: whitesmoke
+  }
+  
+  .suffix {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    transform: translate(100%);
+    opacity: 1;
+    transition: transform 250ms, opacity 200ms; ;
+    width: max-content;
+    color: whitesmoke
+  }
+  
+  .header:hover .suffix {
+    opacity: 0;
+    transform: translate(0%);
+  }
+  
+  .forhire {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    transform: translate(0%);
+    opacity: 0;
+    transition: transform 250ms, opacity 200ms; ;
+    width: max-content;
+    color: whitesmoke
+  }
+  
+  .header:hover .forhire {
+    opacity: 1;
+    transform: translate(100%);
+  }
