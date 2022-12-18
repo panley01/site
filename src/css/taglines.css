@@ -24,6 +24,22 @@ a:active { text-decoration: none; }
     color: whitesmoke
   }
   
+  .forhire {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    transform: translate(100%);
+    opacity: 1;
+    transition: transform 250ms, opacity 200ms; ;
+    width: max-content;
+    color: whitesmoke
+  }
+  
+  .header:hover .forhire {
+    opacity: 0;
+    transform: translate(0%);
+  }
+  
   .suffix {
     position: absolute;
     right: 0;
