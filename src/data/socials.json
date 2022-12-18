@@ -12,6 +12,12 @@
         "link": "discord://-/users/249287049482338305"
     },
     {
+        "site": "email",
+        "name_prefix": "mailto:",
+        "name_suffix": "",
+        "link": "mailto:p@nley.contact?subject=Contact request from pa.nley.contact"
+    },
+    {
         "site": "github",
         "name_prefix": "",
         "name_suffix": "01",
