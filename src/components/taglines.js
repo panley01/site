@@ -23,7 +23,7 @@ function Tagline() {
             setLine(lines[currentLine]);
           }}>
             And I'm ͏
-          <span class="suffix">{line}</span><span class="forhire">for hire.</span>
+          <span class="suffix1">{line}</span><span class="forhire">for hire.</span>
         </h1>
       </div>
     );
