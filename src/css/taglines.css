@@ -1,0 +1,41 @@
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    background-color: rgb(13, 12, 14);
+  }
+  
+  .header {
+    position: relative;
+    background-color: rgb(13, 12, 14);
+    z-index: 10;
+    color: whitesmoke
+  }
+  
+  .suffix {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    transform: translate(0%);
+    opacity: 0;
+    transition: transform 250ms, opacity 200ms; ;
+    width: max-content;
+    color: whitesmoke
+  }
+  
+  .header:hover .suffix {
+    opacity: 1;
+    transform: translate(100%);
+  }
