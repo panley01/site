@@ -8,6 +8,22 @@
         "description": "During the 2021 & 2022 race seasons, I adapted NASCAR's audio stream tech to be able to stream into Discord voice/stage channels. During the 2022 season, I expanded app functionality to have several public commands surfacing info about drivers & live play-by-play race updates, as part of a launch partnership with Discord's App Directory feature"
     },
     {
+        "company": "Discord",
+        "title": "Discord App Developer",
+        "image": "discord.png",
+        "started": 1664578800,
+        "ended": 1667260800,
+        "description": "In October 2022, Discord reached out for assistance in creating a Discord App for the American Music Awards, allowing users to vote in the 'Favourite KPOP Artist' category. I created this application to their specification, using scalable tech able to handle the millions of vote events across the voting period. This app was featured on Discord's App Directory during the voting period."
+    },
+    {
+        "company": "GamerSafer",
+        "title": "Product Manager",
+        "image": "gs.png",
+        "started": 1640995200,
+        "ended": 1664578800,
+        "description": "GamerSafer extended this opportunity to manage the expansion of their existing products into Discord's safety ecosystem. This scope includes Discord bot applications, user resources & development of existing & future tooling. Responsibilites include community outreach, cybersecurity & anti-abuse development, product planning & project management."
+    },
+    {
         "company": "StockX",
         "title": "Discord App Developer",
         "image": "stockx.png",
@@ -24,12 +40,12 @@
         "description": "The opportunity to develop a Discord App for Magoosh was offered via Discord, Magoosh was selected to be a launch partner for Discord's App Directory feature. Magoosh was aiming to bring more educational content to Discord, I aided them in doing this by importing questions into Discord, surfacing them as daily challenges. Users of the Magooshy app could do daily & on demand questions & track their progress on leaderboards."
     },
     {
-        "company": "GamerSafer",
-        "title": "Product Manager",
-        "image": "gs.png",
-        "started": 1640995200,
-        "ended": 1664578800,
-        "description": "GamerSafer extended this opportunity to manage the expansion of their existing products into Discord's safety ecosystem. This scope includes Discord bot applications, user resources & development of existing & future tooling. Responsibilites include community outreach, cybersecurity & anti-abuse development, product planning & project management."
+        "company": "Rythm",
+        "title": "Strategy Consultant",
+        "image": "rythm.png",
+        "started": 1651359600,
+        "ended": 1656630000,
+        "description": "Owners of the largest music bot on Discord, Rythm consulted me for strategy insights pertaining to their future business endavours. Throughout this consultation I was able to provide meaningful feedback on developmental plans & aid in ensuring potential future roadblocks were navigated."
     },
     {
         "company": "Panley Entertainment",
