@@ -20,7 +20,7 @@ a:active { text-decoration: none; }
   
   .header {
     position: relative;
-    font-size: 50vw;
+    font-size: 10vw;
     background-color: rgb(13, 12, 14);
     z-index: 10;
     color: whitesmoke
