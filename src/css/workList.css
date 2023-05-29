@@ -1,0 +1,6 @@
+#embedList {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    flex: 50%;
+}
