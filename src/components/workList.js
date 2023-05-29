@@ -1,8 +1,9 @@
 import React from 'react';
 import WorkEntry from './workEntry'
 import data from '../data/workHistory.json'
+import projectsData from '../data/projects.json'
 
-function WorkList() {
+export function WorkList() {
     const spaces = data.map((item) => {
         return (
           <WorkEntry
@@ -18,5 +19,20 @@ function WorkList() {
       </div>
     )
 }
+
+export function ProjectsList() {
+    const spaces = projectsData.map((item) => {
+        return (
+          <WorkEntry
+            entry={item}
+            key={item.company}
+          />
+        )
+    })
   
-export default WorkList
+    return (
+      <div id="embedList">
+        { spaces }
+      </div>
+    )
+}

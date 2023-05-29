@@ -1,26 +1,23 @@
 #embedHolder {
     text-align: left;
-    width: 600px;
     margin: auto;
-    margin-right: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     transition: height 1s ease;
     color: whitesmoke
 }
 
 #imageContainer {
     float: left;
+    padding-right: 10px;
     transition-duration: 1s;
     transform-origin: top right;
     margin: auto;
     position: relative;
-    left: -10px;
 }
 
 #textContainer {
     transition: all 1s ease;
     position: relative;
     overflow: hidden;
-    padding-left: 100px;
-    width: 490px;
-    padding-bottom: 10px;
 }

@@ -1,51 +1,108 @@
 [
     {
-        "company": "NASCAR",
-        "title": "Discord App Developer",
-        "image": "nascar.png",
-        "started": 1633042800,
-        "ended": 4128710400,
-        "description": "During the 2021 & 2022 race seasons, I adapted NASCAR's audio stream tech to be able to stream into Discord voice/stage channels. During the 2022 season, I expanded app functionality to have several public commands surfacing info about drivers & live play-by-play race updates, as part of a launch partnership with Discord's App Directory feature"
+      "company": "NASCAR",
+      "title": "Contract Developer",
+      "image": "nascar.png",
+      "started": 1635730800,
+      "ended": 1698782400,
+      "description": "During the 2021 & 2022 race seasons, I adapted NASCAR's audio stream tech to be able to stream into Discord voice/stage channels. During the 2022 season, I expanded app functionality to have several public commands surfacing info about drivers & live play-by-play race updates, as part of a launch partnership with Discord's App Directory feature"
     },
     {
-        "company": "Discord",
-        "title": "Discord App Developer",
-        "image": "discord.png",
-        "started": 1664578800,
-        "ended": 1667260800,
-        "description": "In October 2022, Discord reached out for assistance in creating a Discord App for the American Music Awards, allowing users to vote in the 'Favourite KPOP Artist' category. I created this application to their specification, using scalable tech able to handle the millions of vote events across the voting period. This app was featured on Discord's App Directory during the voting period."
+      "company": "Epic Games",
+      "title": "Contract Developer",
+      "image": "epic.png",
+      "started": 1670002800,
+      "ended": 1680656701
     },
     {
-        "company": "GamerSafer",
-        "title": "Product Manager",
-        "image": "gs.png",
-        "started": 1640995200,
-        "ended": 1664578800,
-        "description": "GamerSafer extended this opportunity to manage the expansion of their existing products into Discord's safety ecosystem. This scope includes Discord bot applications, user resources & development of existing & future tooling. Responsibilites include community outreach, cybersecurity & anti-abuse development, product planning & project management."
+      "company": "Rythm",
+      "title": "Consultant",
+      "image": "rythm.png",
+      "started": 1651330800,
+      "ended": 1682899200,
+      "description": "Rythm consulted me for strategy insights pertaining to their future business endavours. Throughout this consultation I have been able to provide meaningful feedback on developmental plans & aid in ensuring potential future roadblocks are navigated. My insights pertaining to Discord endeavours, team growth & product roadmap have been particularly valuable."
+
     },
     {
-        "company": "StockX",
-        "title": "Discord App Developer",
-        "image": "stockx.png",
-        "started": 1656630000,
-        "ended": 1664578800,
-        "description": "The opportunity to develop a Discord App for StockX was offered via Discord, StockX was selected to be a launch partner for Discord's App Directory feature. For this project, I developed a Discord App that allowed users to play in weekly trivia, enter giveaways and get info about the latest StockX drops. The StockX DropBot was featured in the App Dirctory on launch & rapidly obtained thousands of users."
+      "company": "Discord",
+      "title": "Contract Developer",
+      "image": "discord.png",
+      "started": 1664638800,
+      "ended": 1667280000,
+      "description": "In October 2022, Discord reached out for assistance in creating a Discord App for the American Music Awards, allowing users to vote in the 'Favourite KPOP Artist' category. I created this application to their specification, using scalable tech able to handle the millions of vote events across the voting period. This app was featured on Discord's App Directory during the voting period."
     },
     {
-        "company": "Magoosh",
-        "title": "Discord App Developer",
-        "image": "magoosh.png",
-        "started": 1656630000,
-        "ended": 1664578800,
-        "description": "The opportunity to develop a Discord App for Magoosh was offered via Discord, Magoosh was selected to be a launch partner for Discord's App Directory feature. Magoosh was aiming to bring more educational content to Discord, I aided them in doing this by importing questions into Discord, surfacing them as daily challenges. Users of the Magooshy app could do daily & on demand questions & track their progress on leaderboards."
+      "company": "Discord",
+      "title": "Article Author",
+      "image": "discord.png",
+      "started": 1604538301,
+      "ended": 1656983101,
+      "description": "Discord extended the opportunity for community moderators to write articles for the Discord Moderator Academy as of Q4 2020. I used this opportunity to write an article around auto-moderation in Discord, offering a guide and comparison for mainstream auto-moderation bots. This article was then published in the first release of the Discord Moderator Academy. This article has been actively updated, with significant updates in 2022 to account for Discord's new Automoderation feature."
     },
     {
-        "company": "Rythm",
-        "title": "Strategy Consultant",
-        "image": "rythm.png",
-        "started": 1651359600,
-        "ended": 1656630000,
-        "description": "Owners of the largest music bot on Discord, Rythm consulted me for strategy insights pertaining to their future business endavours. Throughout this consultation I was able to provide meaningful feedback on developmental plans & aid in ensuring potential future roadblocks were navigated."
+      "company": "Paramount Pictures",
+      "title": "Contract Developer",
+      "image": "paramount.png",
+      "started": 1686144000,
+      "ended": 1688764800,
+      "description": "Paramount Pictures reached out for development of a Discord application for their launch of the Scream VI movie, as part of this contract I built a GPT-powered rougelike game via a Discord bot - where users would evade Ghostface - claiming a horror movie archetype and survival stats to show off on their Discord profile via Linked Roles."
+    },
+    {
+      "company": "StockX",
+      "title": "Contract Developer",
+      "image": "stockx.png",
+      "started": 1656530400,
+      "ended": 1664577600,
+      "description": "The opportunity to develop a Discord App for StockX was offered via Discord, StockX was selected to be a launch partner for Discord's App Directory feature. For this project, I developed a Discord App that allowed users to play in weekly trivia, enter giveaways and get info about the latest StockX drops. The StockX DropBot was featured in the App Dirctory on launch & rapidly obtained thousands of users."
+
+    },
+    {
+      "company": "Magoosh",
+      "title": "Contract Developer",
+      "image": "magoosh.png",
+      "started": 1656530400,
+      "ended": 1664577600,
+      "description": "The opportunity to develop a Discord App for Magoosh was offered via Discord, Magoosh was selected to be a launch partner for Discord's App Directory feature. Magoosh was aiming to bring more educational content to Discord, I aided them in doing this by importing questions into Discord, surfacing them as daily challenges. Users of the Magooshy app could do daily & on demand questions & track their progress on leaderboards."
+
+    },
+    {
+      "company": "GamerSafer",
+      "title": "Product Manager",
+      "image": "gs.png",
+      "started": 1641061200,
+      "ended": 1664577600,
+      "description": "GamerSafer extended this opportunity to manage the expansion of their existing products into Discord's safety ecosystem. This scope includes Discord bot applications, user resources & development of existing & future tooling. Responsibilites include community outreach, cybersecurity & anti-abuse development, product planning & project management."
+    },
+    {
+      "company": "Fiverr",
+      "title": "Consultant",
+      "image": "fiverr.png",
+      "started": 1656709200,
+      "ended": 1658274000
+    },
+    {
+      "company": "Ping.gg",
+      "title": "Consultant",
+      "image": "ping.png",
+      "started": 1641057600,
+      "ended": 1648558800,
+      "description": "Ping hired me to prepare their community for the launch of their upcoming product. During this setup, I operated within a strict time window due to the approaching launch of the afformentioned product to provide all the essentials for community management, seeing to automoderation needs & consolidating the join flow for new potential influx of users. Following my successful community management consultation with Ping labs, they requested I program a productivity bot for their team management. I built a robust deliverable within a relatively short time-frame, utilizing the Discord interaction kit to make configuration by end users as simple as possible."
+    },
+    {
+      "company": "Hyperbeam",
+      "title": "Consultant",
+      "image": "hyperbeam.png",
+      "started": 1627776000,
+      "ended": 1630377600,
+      "description": "Review from company: We hired Panley to assist in growing and restructuring our Discord server. We're extremely pleased with her insight and feedback! Under her leadership we've introduced changes that increased our weekly joins by 40% and 1-week retention by 30%! We now have a clear plan on how to build a friendly and growing community—thank you Panley for your great work!"
+    },
+    {
+      "company": "Discord",
+      "title": "Online Content Moderator",
+      "image": "discord.png",
+      "started": 1593598800,
+      "ended": 1598888400,
+      "description": "Discord offered this content moderation opportunity on behalf of Wizards Of The Coast, a company they onboarded to Discord for their Dungeons & Dragons community. As part of this contracted opportunity, I aided in configuration of the community as well as routine moderation duties, this also extended to providing long term contracted moderators with resources to aid them in content moderation for the community."
     },
     {
         "company": "Panley Entertainment",
