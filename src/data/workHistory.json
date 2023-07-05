@@ -43,8 +43,8 @@
       "company": "Paramount Pictures",
       "title": "Contract Developer",
       "image": "paramount.png",
-      "started": 1686144000,
-      "ended": 1688764800,
+      "started": 1675213261,
+      "ended": 1682902861,
       "description": "Paramount Pictures reached out for development of a Discord application for their launch of the Scream VI movie, as part of this contract I built a GPT-powered rougelike game via a Discord bot - where users would evade Ghostface - claiming a horror movie archetype and survival stats to show off on their Discord profile via Linked Roles."
     },
     {
