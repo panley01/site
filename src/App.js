@@ -11,11 +11,11 @@ function App() {
       <Header />
       <div className='embedcontainer'>
         <div>
-          <h1>Work history</h1>
+          <h1 style={{ color: 'white' }}>Work History</h1>
           <WorkList />
         </div>
         <div>
-          <h1>Projects</h1>
+          <h1 style={{ color: 'white' }}>Projects</h1>
           <ProjectsList />
         </div>
       </div>
