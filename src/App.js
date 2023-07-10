@@ -3,6 +3,7 @@ import {WorkList,ProjectsList,SocialsList} from './components/workList.js'
 import Header from './components/header'
 import Tagline from './components/taglines'
 import Contact from './components/contact';
+import { FaGithub } from 'react-icons/fa'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <ProjectsList />
           <h1 style={{ color: 'white' }}>Contact Information</h1>
           <SocialsList />
+          <a target={'_blank'} href={'https://github.com/panley01/site'} style={{ color: 'white' }}><h1 style={{ color: 'white' }}>{<FaGithub />}{'  This website is OSS!'}</h1></a>
         </div>
       </div>
     </div>
