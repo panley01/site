@@ -4,7 +4,8 @@
     padding-left: 50px;
     padding-right: 50px;
     transition: height 1s ease;
-    color: whitesmoke
+    color: whitesmoke;
+    user-select: none;
 }
 
 #imageContainer {
@@ -20,6 +21,7 @@
     transition: all 1s ease;
     position: relative;
     overflow: hidden;
+    user-select: none;
 }
 
 a {
