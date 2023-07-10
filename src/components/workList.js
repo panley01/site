@@ -2,7 +2,7 @@ import React from 'react';
 import WorkEntry from './workEntry'
 
 export async function WorkList() {
-    const spaces = (JSON.parse(await context.env.SITE_DATA.get('work'))).map((item) => {
+    const spaces = (JSON.parse(await process.env.SITE_DATA.get('work'))).map((item) => {
         return (
           <WorkEntry
             entry={item}
@@ -19,7 +19,7 @@ export async function WorkList() {
 }
 
 export async function ProjectsList() {
-    const spaces = (JSON.parse(await context.env.SITE_DATA.get('projects'))).map((item) => {
+    const spaces = (JSON.parse(await process.env.SITE_DATA.get('projects'))).map((item) => {
         return (
           <WorkEntry
             entry={item}
