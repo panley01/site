@@ -22,6 +22,7 @@ function App() {
         <div>
           <h1 style={{ color: 'white' }}>Projects</h1>
           <ProjectsList />
+          <SocialsList />
         </div>
       </div>
     </div>
