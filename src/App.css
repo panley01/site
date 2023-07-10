@@ -36,7 +36,7 @@
 .textcontainer {
   display: grid;
   text-align: left;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 5em
 }
 
