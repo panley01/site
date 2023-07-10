@@ -33,6 +33,12 @@
   gap: 5em
 }
 
+.textcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5em
+}
+
 @media only screen and (max-width: 940px)  {
   .embedcontainer {grid-template-columns: 1fr;}
 }
