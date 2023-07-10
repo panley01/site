@@ -4,7 +4,7 @@ import data from '../data/workHistory.json'
 import projectsData from '../data/projects.json'
 
 export function WorkList() {
-    const spaces = data.map((item) => {
+    const spaces = (JSON.parse(await context.env.SITE_DATA.get('work'))).map((item) => {
         return (
           <WorkEntry
             entry={item}
@@ -21,7 +21,7 @@ export function WorkList() {
 }
 
 export function ProjectsList() {
-    const spaces = projectsData.map((item) => {
+    const spaces = (JSON.parse(await context.env.SITE_DATA.get('projects'))).map((item) => {
         return (
           <WorkEntry
             entry={item}
