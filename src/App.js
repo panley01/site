@@ -25,6 +25,10 @@ function App() {
           <ProjectsList />
           <h1 style={{ color: 'white' }}>Contact Information</h1>
           <SocialsList />
+        </div>
+      </div>
+      <div className='textcontainer'>
+        <div>
           <a target={'_blank'} href={'https://github.com/panley01/site'} style={{ color: 'white' }}><h1 style={{ color: 'white' }}>{<FaGithub />}{'  This website is OSS!'}</h1></a>
         </div>
       </div>
