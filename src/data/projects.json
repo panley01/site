@@ -4,13 +4,23 @@
       "title": "Mentor (Moderator Mentorship Community)",
       "image": "discord.png",
       "started": 1622444400,
-      "ended": 1698744000
+      "ended": 1686416653,
+      "description": "As a mentor in the Moderation Mentorship Community, I collaborated with other mentors & stakeholders in Discord's policy team to aid youth moderators in navigating challenges in content moderation & community management. As part of this voluntary programme, I was responsible for a cohort of these moderators. I've been a participant in the program since inception, and contributed significantly to early policies for the program."
     },
     {
       "company": "Discord",
       "title": "Online Content Moderator (Discord Moderator Program)",
       "image": "discord.png",
       "started": 1622480400,
-      "ended": 1672459200
+      "ended": 1672459200,
+      "description": "The Discord Moderator Program is a voluntary program aimed at providing seasoned community managers, content moderators and bot developers to first-party Discord projects and communities onboarded to Discord directly by Discord. This program provides ample opportunities for experience in various afformentioned positions. Many of these opportunities have enabled me to gain contracted work with companies onboarded by Discord."
+    },
+    {
+      "company": "Displace",
+      "title": "Director",
+      "image": "displace.png",
+      "started": 1602350208,
+      "ended": 1673371008,
+      "description": "Displace is the largest Discord-Meta community on the platform, producing many resources including AMAs with prolific Discord figures & informational resources. It's expanded to be a content center for people looking to learn more about Discord bots, communities and more."
     }
 ]
