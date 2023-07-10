@@ -3,7 +3,7 @@ import '../css/workEntry.css'
 
 function WorkEntry({entry}) {
     
-  const [isShown, setIsShown] = useState(true)
+  const [isShown, setIsShown] = useState(false)
   
   const startDate = new Date(entry.started * 1000)
   const endDate = new Date(entry.ended * 1000)
