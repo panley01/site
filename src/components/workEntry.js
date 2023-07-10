@@ -14,6 +14,7 @@ function WorkEntry({entry}) {
     <div id="embedHolder" onMouseEnter={() => {console.log("entry"); setIsShown(true)}} onMouseLeave={() => {console.log("exit"); setIsShown(false)}}>
       <img
         src={`${process.env.PUBLIC_URL}images/${entry.image}`}
+        alt={'The company logo of the company '}{entry.company}
         width="100"
         height="100"
         alt=""
