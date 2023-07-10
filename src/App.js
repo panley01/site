@@ -27,7 +27,7 @@ function App() {
           <SocialsList />
         </div>
       </div>
-      <div className='textcontainer'>
+      <div className='footercontainer'>
         <div>
           <a target={'_blank'} href={'https://github.com/panley01/site'} style={{ color: 'white' }}><h1 style={{ color: 'white' }}>{<FaGithub />}{'  This website is OSS!'}</h1></a>
         </div>
