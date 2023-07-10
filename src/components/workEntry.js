@@ -11,7 +11,7 @@ function WorkEntry({entry}) {
   const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
   return (
-    <div id="embedHolder" onMouseEnter={() => {console.log("entry"); setIsShown(true)}} onMouseLeave={() => {console.log("exit"); setIsShown(true)}}>
+    <div id="embedHolder" onMouseEnter={() => {console.log("entry"); setIsShown(true)}} onMouseLeave={() => {console.log("exit"); setIsShown(false)}}>
       <img
         src={`${process.env.PUBLIC_URL}images/${entry.image}`}
         alt={`The company logo of the company ${entry.company}`}
