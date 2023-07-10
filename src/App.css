@@ -42,6 +42,15 @@
   padding-left: 10vw;
 }
 
+.footercontainer {
+  display: grid;
+  text-align: centre;
+  grid-template-columns: 1fr;
+  gap: 5em;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
 @media only screen and (max-width: 940px)  {
   .embedcontainer {grid-template-columns: 1fr;}
 }
