@@ -22,7 +22,7 @@ function App() {
         <div>
           <h1 style={{ color: 'white' }}>Projects</h1>
           <ProjectsList />
-          <h1 style={{ color: 'white' }}>Contact</h1>
+          <h1 style={{ color: 'white' }}>Contact Information</h1>
           <SocialsList />
         </div>
       </div>
