@@ -29,7 +29,7 @@ function SocialEntry({entry}) {
 
   return (
     <div id="embedHolder" onMouseEnter={() => {console.log("entry"); setIsShown(true)}} onMouseLeave={() => {console.log("exit"); setIsShown(false)}}>
-      <a href={entry.link}><h2>{((iconMapping[entry.site]) ? iconMapping[entry.site] : '')}{entry.site}{' • '}{entry.prefix}{'panley'}{entry.suffix}</h2><>
+      <a href={entry.link}><h2>{((iconMapping[entry.site]) ? iconMapping[entry.site] : '')}{entry.site}{' • '}{entry.prefix}{'panley'}{entry.suffix}</h2></a>
     </div>
   )
 }
