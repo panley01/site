@@ -9,6 +9,13 @@ function App() {
     <div className="App">
       <img style={{width: '100vw'}} src={`${process.env.PUBLIC_URL}/wave.svg`} />
       <Header />
+      <div className='textcontainer'>
+        <div></div>
+        <div>
+          <p style={{ color: 'white' }}>test text</p>
+        </div>
+        <div></div>
+      </div>
       <div className='embedcontainer'>
         <div>
           <h1 style={{ color: 'white' }}>Work History</h1>
