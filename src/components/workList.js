@@ -1,8 +1,10 @@
 import React from 'react';
 import WorkEntry from './workEntry'
+import data from '../data/workHistory.json'
+import projectsData from '../data/projects.json'
 
-export async function WorkList() {
-    const spaces = (JSON.parse(await process.env.SITE_DATA.get('work'))).map((item) => {
+export function WorkList() {
+    const spaces = data.map((item) => {
         return (
           <WorkEntry
             entry={item}
@@ -18,8 +20,8 @@ export async function WorkList() {
     )
 }
 
-export async function ProjectsList() {
-    const spaces = (JSON.parse(await process.env.SITE_DATA.get('projects'))).map((item) => {
+export function ProjectsList() {
+    const spaces = projectsData.map((item) => {
         return (
           <WorkEntry
             entry={item}
