@@ -37,7 +37,9 @@
   display: grid;
   text-align: left;
   grid-template-columns: 1fr;
-  gap: 5em
+  gap: 5em;
+  padding-right: 10vw;
+  padding-left: 10vw;
 }
 
 @media only screen and (max-width: 940px)  {
