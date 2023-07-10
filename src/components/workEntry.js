@@ -17,7 +17,6 @@ function WorkEntry({entry}) {
         alt={`The company logo of the company ${entry.company}`}
         width="100"
         height="100"
-        alt=""
         id="imageContainer"
       />
       <h2>{entry.company}{' • '}{entry.title}</h2>
