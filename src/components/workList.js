@@ -1,7 +1,9 @@
 import React from 'react';
 import WorkEntry from './workEntry'
+import SocialEntry from './socialEntry'
 import data from '../data/workHistory.json'
 import projectsData from '../data/projects.json'
+import socialsData from '../data/socials.json'
 
 export function WorkList() {
     const spaces = data.map((item) => {
@@ -36,3 +38,21 @@ export function ProjectsList() {
       </div>
     )
 }
+
+export function SocialsList() {
+    const spaces = socialsData.map((item) => {
+        return (
+          <SocialEntry
+            entry={item}
+            key={item.site}
+          />
+        )
+    })
+  
+    return (
+      <div id="embedList">
+        { spaces }
+      </div>
+    )
+}
+
