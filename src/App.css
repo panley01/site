@@ -19,6 +19,10 @@
   color: #61dafb;
 }
 
+.header {
+  color: white
+}
+
 #root {
   position: fixed;
   width: 100vw;
