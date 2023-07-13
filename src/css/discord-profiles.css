@@ -1,0 +1,57 @@
+/* Themes */
+.theme-dark {
+
+}
+
+.theme-light {
+    --body-color: #ffffff73;
+}
+
+/* Main profile styles */
+.discord-profile {
+    width: 340px;
+    position: relative;
+    border-radius: 8px;
+    background-image: linear-gradient(var(--profile-gradient-primary),var(--profile-gradient-primary) 120px,var(--profile-gradient-secondary));
+    overflow: hidden;
+}
+
+.discord-profile__content {
+    padding: 12px 16px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Banner */
+.discord-profile__banner-image {
+    height: 100%;
+    user-select: none;
+}
+
+.discord-profile__avatar-image {
+    border-radius: 100%;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 72px;
+    left: 18px;
+    user-select: none;
+}
+
+/* Badges */
+.discord-profile__badges {
+    padding: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    align-self: end;
+    background-color: var(--body-color);
+    border-radius: 8px;
+    max-width: 190px;
+}
+
+.discord-profile__badge {
+    width: 22px;
+    height: 22px;
+    user-select: none;
+}

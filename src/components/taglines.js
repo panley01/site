@@ -16,14 +16,14 @@ function Tagline() {
     };
     
     return (
-      <div class="tagcontainer">
-        <h1 class="tagheader"
+      <div className="tagcontainer">
+        <h1 className="tagheader"
           onMouseEnter={() => {
             incrementCurrentLine();
             setLine(lines[currentLine]);
           }}>
             And I'm ͏
-          <span class="forhire">{line}</span><span class="tagsuffix">for hire.</span>
+          <span className="forhire">{line}</span><span className="tagsuffix">for hire.</span>
         </h1>
       </div>
     );
