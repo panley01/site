@@ -3,7 +3,7 @@ import {WorkList,ProjectsList,SocialsList} from './components/workList.js'
 import Header from './components/header'
 import Tagline from './components/taglines'
 import Contact from './components/contact';
-import { FaGithub FaCloudflare } from 'react-icons/fa'
+import { FaGithub,FaCloudflare } from 'react-icons/fa'
 
 function App() {
   return (
