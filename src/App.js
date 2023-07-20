@@ -1,9 +1,10 @@
 import './App.css';
 import {WorkList,ProjectsList,SocialsList} from './components/workList.js'
 import Header from './components/header'
-import Tagline from './components/taglines'
-import Contact from './components/contact';
-import { FaGithub } from 'react-icons/fa'
+// import Tagline from './components/taglines'
+// import Contact from './components/contact';
+
+import { FaGithub, FaCloudflare  } from 'react-icons/fa'
 import DiscordProfile from "./components/discord_profiles/DiscordProfile.tsx";
 
 const discordUser = {
@@ -50,6 +51,7 @@ function App() {
       <div className='footercontainer'>
         <div>
           <a target={'_blank'} href={'https://github.com/panley01/site'} style={{ color: 'white' }}><h1 style={{ color: 'white' }}>{<FaGithub />}{'  This website is OSS!'}</h1></a>
+          <a target={'_blank'} href={'https://pages.cloudflare.com/'} style={{ color: 'white' }}><h2 style={{ color: 'white' }}>{<FaCloudflare />}{'  And hosted using Cloudflare Pages'}</h2></a>
         </div>
       </div>
     </div>
