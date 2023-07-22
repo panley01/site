@@ -16,6 +16,14 @@
       "description": "The Discord Moderator Program is a voluntary program aimed at providing seasoned community managers, content moderators and bot developers to first-party Discord projects and communities onboarded to Discord directly by Discord. This program provides ample opportunities for experience in various afformentioned positions. Many of these opportunities have enabled me to gain contracted work with companies onboarded by Discord."
     },
     {
+      "company": "Hackerone",
+      "title": "Hobbyist Hacker",
+      "image": "hackerone.png",
+      "started": 1670472858,
+      "ended": 99999999999,
+      "description": "I enjoy security testing as a hobby, primarily contributing to Discord's security program - where I maintain a top-10 position in their contributor thanks list. I generally identify issues with APIs via reverse engineering, including easily overlooked issues like information disclosure. Over time, I've collected >300 rep for my bounties & successfully reported a critical security issue. Carrying out this security testing has helped me make my own apps more secure."
+    },
+    {
       "company": "Displace",
       "title": "Director",
       "image": "displace.png",
