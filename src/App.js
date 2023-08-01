@@ -42,7 +42,9 @@ function App() {
           <WorkList />
         </div>
         <div>
-          <DiscordProfile discordUser={discordUser}/>
+          <div style={{ margin: 'auto' }}>
+            <DiscordProfile discordUser={discordUser}/>
+          </div>
           <h1 style={{ color: 'white' }}>Projects</h1>
           <ProjectsList />
           <h1 style={{ color: 'white' }}>Contact Information</h1>
