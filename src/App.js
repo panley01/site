@@ -17,7 +17,7 @@ const discordUser = {
   "flags": 4588128,
   "banner": "fcb28694fceb7107e12700b26238248e",
   "theme_colors": [13594997, 10193583],
-  "bio": "I make things on Discord for a living.\n\nhttps://pa.nley.contact",
+  "bio": "I make things on Discord for a living.\n\nHit me up on Discord!",
   "locale": "en-GB",
   "mfa_enabled": true,
   "premium_type": 2,
@@ -42,6 +42,7 @@ function App() {
           <WorkList />
         </div>
         <div>
+          <h1 style={{ color: 'white' }}>Discord</h1>
           <div style={{ display: 'flex', 'justify-content': 'center' }}>
             <DiscordProfile discordUser={discordUser}/>
           </div>
