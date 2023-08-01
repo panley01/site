@@ -10,4 +10,5 @@ export interface DiscordUser {
   bio?: string,
   theme_colors?: [number, number]
   premium_type: 0 | 1 | 2 | 3,
+  theme: "light" | "dark",
 }

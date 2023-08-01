@@ -9,9 +9,8 @@ interface Props {
 function Avatar({userId, avatarHash, globalName}: Props) {
   const avatarUrl = avatarHash !== null
     ? `https://cdn.discordapp.com/avatars/${userId}/${avatarHash}.webp?size=80`
-    : null;
+    : `https://cdn.discordapp.com/embed/avatars/${Number(BigInt(userId) >> BigInt(22)) % 6}.png`;
 
-  // todo: no avatar
   return (
     <img
       src={avatarUrl}

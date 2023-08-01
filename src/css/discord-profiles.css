@@ -39,19 +39,27 @@
 .theme-dark {
     --body-color: rgba(0, 0, 0, 0.45);
     --header-primary: rgb(242, 243, 245);
+    --header-secondary: rgb(242, 243, 245);
+    --header-overlay: rgba(0, 0, 0, 0.6);
+    --text-normal: rgb(219, 222, 225);
     --profile-divider: rgba(255, 255, 255, 0.24);
+    --accent: rgb(0, 176, 244);
 }
 
 .theme-light {
     --body-color: #ffffff73;
-    --header-primary: rgb(49, 51, 56);
+    --header-primary: rgb(6, 6, 7);
     --header-secondary: rgb(78, 80, 88);
+    --header-overlay: rgba(255, 255, 255, 0.6);
+    --text-normal: rgb(49, 51, 56);
     --profile-divider: rgba(105, 21, 34, 0.12);
+    --accent: rgb(0, 176, 244);
 }
 
 
 /* Main profile styles */
 .discord-profile {
+    padding: 4px;
     width: 340px;
     position: relative;
     border-radius: 8px;
@@ -72,6 +80,10 @@
     flex-direction: column;
 }
 
+.discord-profile__overlay {
+    background-color: var(--header-overlay);
+}
+
 .discord-profile__content {
     background-color: var(--body-color);
     border-radius: 8px;
@@ -88,8 +100,8 @@
 
 .discord-profile__username {
     font-size: 14px;
-    font-weight: 600;
-    color: var(--header-secondary);
+    font-weight: 500;
+    color: var(--header-primary);
 }
 
 .discord-profile__divider {
@@ -107,17 +119,27 @@
     text-transform: uppercase;
     font-size: 12px;
     margin: 0 0 6px;
+    color: var(--header-primary);
 }
 
 .discord-profile__section__content {
     font-size: 14px;
     font-weight: 400;
+    color: var(--text-normal);
 }
 
 
 /* Bio */
 .discord-profile__bio {
     white-space: pre;
+}
+
+.discord-profile__bio a {
+    color: var(--accent);
+}
+
+.discord-profile__bio a:hover {
+    text-decoration: underline;
 }
 
 /* Banner */
@@ -131,8 +153,8 @@
     position: absolute;
     width: 80px;
     height: 80px;
-    top: 72px;
-    left: 18px;
+    top: 76px;
+    left: 22px;
     user-select: none;
 }
 
