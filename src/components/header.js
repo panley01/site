@@ -32,15 +32,15 @@ function Header() {
     };
     
     return (
-      <div class="container">
-        <h1 class="header"
+      <div className="container">
+        <h1 className="header"
           onMouseEnter={() => {
             incrementCurrentSite();
             setSite(sites[currentSite]);
           }}>
-          <a  target="_blank" rel="noopener noreferrer" style={{color: 'whitesmoke', "background-color": 'rgb(13, 12, 14)'}} href={`${site.link}`}><span class="prefix">{site.name_prefix}</span>
+          <a  target="_blank" rel="noopener noreferrer" style={{color: 'whitesmoke', backgroundColor: 'rgb(13, 12, 14)'}} href={`${site.link}`}><span className="prefix">{site.name_prefix}</span>
             panley
-          <span class="suffix">{site.name_suffix} {((iconMapping[site.site]) ? iconMapping[site.site] : '')}</span></a>
+          <span className="suffix">{site.name_suffix} {((iconMapping[site.site]) ? iconMapping[site.site] : '')}</span></a>
         </h1>
       </div>
     );

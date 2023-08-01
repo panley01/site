@@ -1,0 +1,177 @@
+/* Fonts */
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../public/fonts/gg-sans-normal-400.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 500;
+    src: url("../../public/fonts/gg-sans-normal-500.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 600;
+    src: url("../../public/fonts/gg-sans-normal-600.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 700;
+    src: url("../../public/fonts/gg-sans-normal-700.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: gg sans;
+    font-style: normal;
+    font-weight: 800;
+    src: url("../../public/fonts/gg-sans-normal-800.woff2") format("woff2");
+}
+
+
+/* Themes */
+.theme-dark {
+    --body-color: rgba(0, 0, 0, 0.45);
+    --header-primary: rgb(242, 243, 245);
+    --header-secondary: rgb(242, 243, 245);
+    --header-overlay: rgba(0, 0, 0, 0.6);
+    --text-normal: rgb(219, 222, 225);
+    --profile-divider: rgba(255, 255, 255, 0.24);
+    --accent: rgb(0, 176, 244);
+}
+
+.theme-light {
+    --body-color: #ffffff73;
+    --header-primary: rgb(6, 6, 7);
+    --header-secondary: rgb(78, 80, 88);
+    --header-overlay: rgba(255, 255, 255, 0.6);
+    --text-normal: rgb(49, 51, 56);
+    --profile-divider: rgba(105, 21, 34, 0.12);
+    --accent: rgb(0, 176, 244);
+}
+
+
+/* Main profile styles */
+.discord-profile {
+    padding: 4px;
+    width: 340px;
+    position: relative;
+    border-radius: 8px;
+    background-image: linear-gradient(var(--profile-gradient-primary),var(--profile-gradient-primary) 120px,var(--profile-gradient-secondary));
+    overflow: hidden;
+    font-family: gg sans, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.discord-profile * {
+    text-align: start;
+}
+
+.discord-profile__main {
+    padding: 12px 16px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.discord-profile__overlay {
+    background-color: var(--header-overlay);
+}
+
+.discord-profile__content {
+    background-color: var(--body-color);
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 16px;
+}
+
+.discord-profile__display-name {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--header-primary);
+}
+
+.discord-profile__username {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--header-primary);
+}
+
+.discord-profile__divider {
+    background-color: var(--profile-divider);
+    height: 1px;
+    margin: 12px 0 0;
+}
+
+.discord-profile__section {
+    margin: 12px 0 0;
+}
+
+.discord-profile__section__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0 0 6px;
+    color: var(--header-primary);
+}
+
+.discord-profile__section__content {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-normal);
+}
+
+
+/* Bio */
+.discord-profile__bio {
+    white-space: pre;
+}
+
+.discord-profile__bio a {
+    color: var(--accent);
+}
+
+.discord-profile__bio a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+.discord-profile__banner-image {
+    height: 100%;
+    user-select: none;
+}
+
+.discord-profile__avatar-image {
+    border-radius: 100%;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 76px;
+    left: 22px;
+    user-select: none;
+}
+
+/* Badges */
+.discord-profile__badges {
+    padding: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    align-self: end;
+    background-color: var(--body-color);
+    border-radius: 8px;
+    max-width: 190px;
+}
+
+.discord-profile__badge {
+    width: 22px;
+    height: 22px;
+    user-select: none;
+}
