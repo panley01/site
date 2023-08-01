@@ -42,7 +42,7 @@ function App() {
           <WorkList />
         </div>
         <div>
-          <div style={{ margin: 'auto' }}>
+          <div style={{ display: 'flex', 'justify-content': 'center' }}>
             <DiscordProfile discordUser={discordUser}/>
           </div>
           <h1 style={{ color: 'white' }}>Projects</h1>
