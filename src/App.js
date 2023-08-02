@@ -49,7 +49,9 @@ function App() {
             <DiscordProfile discordUser={discordUser}/>
           </div>
           <h1 style={{ color: 'white' }}>Contact Information</h1>
-          <SocialsList />
+          <div style={{ display: 'flex', 'justify-content': 'center' }}>
+            <SocialsList />
+          </div>
         </div>
       </div>
       <div className='footercontainer'>
