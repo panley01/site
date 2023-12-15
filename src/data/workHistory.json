@@ -8,6 +8,13 @@
       "description": "During the 2021 & 2022 race seasons, I adapted NASCAR's audio stream tech to be able to stream into Discord voice/stage channels. During the 2022 season, I expanded app functionality to have several public commands surfacing info about drivers & live play-by-play race updates, as part of a launch partnership with Discord's App Directory feature"
     },
     {
+      "company": "Ubisoft",
+      "title": "Contract Developer",
+      "image": "ubisoft.png",
+      "started": 1696118461,
+      "ended": 2698782400
+    },
+    {
       "company": "CHANI",
       "title": "Contract Developer",
       "image": "chani.png",
