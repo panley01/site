@@ -22,7 +22,7 @@ function WorkEntry({entry}) {
         height="100"
         id="imageContainer"
       />
-      <h2>{entry.company}{' • '}{entry.title}</h2>
+      <a href={entry.url ?? '#'}><h2>{entry.company}{' • '}{entry.title}</h2></a>
       <h3>{`${months[startDate.getMonth()]} ${startDate.getFullYear()} - ${((endDate > today) ? 'Current' : (months[endDate.getMonth()] + ' ' + endDate.getFullYear().toString()))}`}</h3>
       <div style={{opacity: `${isShown ? '1' : '0'}`, maxHeight: `${isShown ? '500px' : '0'}`}} id="textContainer">{entry.description}</div>
     </div>
