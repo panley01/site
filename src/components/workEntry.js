@@ -21,10 +21,11 @@ function WorkEntry({entry}) {
         width="100"
         height="100"
         id="imageContainer"
+        href={entry.url ?? '#'}
       />
       <a href={entry.url ?? '#'}><h2>{entry.company}{' • '}{entry.title}</h2></a>
-      <h3>{`${months[startDate.getMonth()]} ${startDate.getFullYear()} - ${((endDate > today) ? 'Current' : (months[endDate.getMonth()] + ' ' + endDate.getFullYear().toString()))}`}</h3>
-      <div style={{opacity: `${isShown ? '1' : '0'}`, maxHeight: `${isShown ? '500px' : '0'}`}} id="textContainer">{entry.description}</div>
+      <a href={entry.url ?? '#'}><h3>{`${months[startDate.getMonth()]} ${startDate.getFullYear()} - ${((endDate > today) ? 'Current' : (months[endDate.getMonth()] + ' ' + endDate.getFullYear().toString()))}`}</h3></a>
+      <a href={entry.url ?? '#'}><div style={{opacity: `${isShown ? '1' : '0'}`, maxHeight: `${isShown ? '500px' : '0'}`}} id="textContainer">{entry.description}</div></a>
     </div>
   )
 }
