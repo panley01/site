@@ -9,6 +9,7 @@ import { mutateWorkEntry } from './mutateParodyData';
 export function WorkList(parody) {
     console.log(parody.parody)
     const spaces = data.map((item) => {
+        if (parody.parody) {document.getElementById('audio').play()}
         return (
           <WorkEntry
             entry={((parody.parody == true) ? mutateWorkEntry(item) : item)}
