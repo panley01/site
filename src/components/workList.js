@@ -6,7 +6,7 @@ import projectsData from '../data/projects.json'
 import socialsData from '../data/socials.json'
 import { mutateWorkEntry } from './mutateParodyData';
 
-export function WorkList(isParodySite = false) {
+export function WorkList(isParodySite) {
     const spaces = data.map((item) => {
         return (
           <WorkEntry
@@ -23,7 +23,7 @@ export function WorkList(isParodySite = false) {
     )
 }
 
-export function ProjectsList(isParodySite = false) {
+export function ProjectsList(isParodySite) {
     const spaces = projectsData.map((item) => {
         return (
           <WorkEntry
