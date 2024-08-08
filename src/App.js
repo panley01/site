@@ -32,7 +32,7 @@ function App() {
   console.log(isParodySite)
   return (
     <div className="App">
-      <img style={{width: '100vw'}} alt={'A white and black background seperated horizontally by a wavy line, white on top black on bottom. On the white section is the text: "Hi, I\'m".'} src={`${process.env.PUBLIC_URL}/wave.svg`} />
+      <img style={{width: '100vw'}} alt={'A white and black background seperated horizontally by a wavy line, white on top black on bottom. On the white section is the text: "Hi, I\'m".'} src={((isParodySite) ? `${process.env.PUBLIC_URL}/awfulaibanner.jpg` : `${process.env.PUBLIC_URL}/wave.svg`)} />
       <Header />
       <div className='textcontainer'>
         <div>
