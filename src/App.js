@@ -43,7 +43,7 @@ function App() {
         </div>
         <div>
           <h1 style={{ color: 'white' }}>Projects</h1>
-          <ProjectsList />
+          <ProjectsList isParodySite = {(new URL(process.env.PUBLIC_URL)).hostname == 'levels.pnly.io'}/>
           <h1 style={{ color: 'white' }}>Discord</h1>
           <div style={{ display: 'flex', 'justify-content': 'center' }}>
             <DiscordProfile discordUser={discordUser}/>

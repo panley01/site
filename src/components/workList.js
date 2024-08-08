@@ -23,8 +23,7 @@ export function WorkList() {
     )
 }
 
-export function ProjectsList() {
-    const isParodySite = (new URL(process.env.PUBLIC_URL)).hostname == 'levels.pnly.io'
+export function ProjectsList(isParodySite = false) {
     const spaces = projectsData.map((item) => {
         return (
           <WorkEntry
