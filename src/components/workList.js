@@ -7,11 +7,11 @@ import socialsData from '../data/socials.json'
 import { mutateWorkEntry } from './mutateParodyData';
 
 export function WorkList(parody) {
-    console.log(parody)
+    console.log(parody.parody)
     const spaces = data.map((item) => {
         return (
           <WorkEntry
-            entry={((parody == true) ? mutateWorkEntry(item) : item)}
+            entry={((parody.parody == true) ? mutateWorkEntry(item) : item)}
             key={item.company}
           />
         )
@@ -25,11 +25,11 @@ export function WorkList(parody) {
 }
 
 export function ProjectsList(parody) {
-    console.log(parody)
+    console.log(parody.parody)
     const spaces = projectsData.map((item) => {
         return (
           <WorkEntry
-            entry={((parody == true) ? mutateWorkEntry(item) : item)}
+            entry={((parody.parody == true) ? mutateWorkEntry(item) : item)}
             key={item.company}
           />
         )
