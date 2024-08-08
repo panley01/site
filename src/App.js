@@ -30,8 +30,14 @@ function App() {
   console.log(window.location.href)
   const isParodySite = (new URL(window.location.href)).hostname != 'pa.nley.contact'
   console.log(isParodySite)
+  
+  let audio = new Audio("/bonzi.mp3")
+
+  const start = () => {
+    audio.play()
+  }
   return (
-    <div className="App">
+    <div className="App" onClick={start}>
       {((isParodySite) ? <audio id="audio" loop autoplay src={`${process.env.PUBLIC_URL}/bonzi.mp3`}></audio> : '')}
       <img style={{width: '100vw'}} alt={'A white and black background seperated horizontally by a wavy line, white on top black on bottom. On the white section is the text: "Hi, I\'m".'} src={((isParodySite) ? `${process.env.PUBLIC_URL}/awfulaibanner.jpg` : `${process.env.PUBLIC_URL}/wave.svg`)} />
       <Header />
