@@ -42,11 +42,11 @@ function App() {
       <div className='embedcontainer'>
         <div>
           <h1 style={{ color: 'white' }}>Work History</h1>
-          <WorkList isParodySite = {isParodySite}/>
+          <WorkList parody={isParodySite}/>
         </div>
         <div>
           <h1 style={{ color: 'white' }}>Projects</h1>
-          <ProjectsList isParodySite = {isParodySite}/>
+          <ProjectsList parody={isParodySite}/>
           <h1 style={{ color: 'white' }}>Discord</h1>
           <div style={{ display: 'flex', 'justify-content': 'center' }}>
             <DiscordProfile discordUser={discordUser}/>
