@@ -27,6 +27,7 @@ const discordUser = {
 }
 
 function App() {
+  console.log(process.env.PUBLIC_URL)
   return (
     <div className="App">
       <img style={{width: '100vw'}} alt={'A white and black background seperated horizontally by a wavy line, white on top black on bottom. On the white section is the text: "Hi, I\'m".'} src={`${process.env.PUBLIC_URL}/wave.svg`} />
