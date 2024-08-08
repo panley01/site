@@ -28,7 +28,7 @@ const discordUser = {
 
 function App() {
   console.log(window.location.href)
-  const isParodySite = (new URL(window.location.href)).hostname == 'levels.pnly.io'
+  const isParodySite = (new URL(window.location.href)).hostname != 'pa.nley.contact'
   console.log(isParodySite)
   return (
     <div className="App">
