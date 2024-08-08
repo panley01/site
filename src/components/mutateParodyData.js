@@ -5,6 +5,6 @@ export function mutateWorkEntry(data) {
     const titles = ['Deep Tech AI Analyst', 'Market Guru Master Investor', 'Founder CEO Co-Founder Executive', 'Chief Fun Officer']
     data.title = titles[Math.floor(Math.random()*titles.length)]
     const sellouts = ['ACQUIRED', 'RAISED', 'VALUED']
-    data.company += ` ( ${sellouts[Math.floor(Math.random()*sellouts.length)]} $${(Math.floor(100000 + Math.random() * 900000)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}M)`
+    data.company += ` ( ${sellouts[Math.floor(Math.random()*sellouts.length)]} $${(Math.floor(1000000 + Math.random() * 9000000)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")})`
     return data
 }

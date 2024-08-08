@@ -6,11 +6,11 @@ import projectsData from '../data/projects.json'
 import socialsData from '../data/socials.json'
 import { mutateWorkEntry } from './mutateParodyData';
 
-export function WorkList() {
+export function WorkList(isParodySite = false) {
     const spaces = data.map((item) => {
         return (
           <WorkEntry
-            entry={item}
+            entry={((isParodySite) ? mutateWorkEntry(item) : item)}
             key={item.company}
           />
         )

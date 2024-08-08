@@ -39,7 +39,7 @@ function App() {
       <div className='embedcontainer'>
         <div>
           <h1 style={{ color: 'white' }}>Work History</h1>
-          <WorkList />
+          <WorkList isParodySite = {process.env.PUBLIC_URL.includes('levels.pnly.io')}/>
         </div>
         <div>
           <h1 style={{ color: 'white' }}>Projects</h1>
