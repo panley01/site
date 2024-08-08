@@ -10,7 +10,7 @@ export function WorkList(isParodySite = false) {
     const spaces = data.map((item) => {
         return (
           <WorkEntry
-            entry={((isParodySite) ? mutateWorkEntry(item) : item)}
+            entry={((isParodySite == true) ? mutateWorkEntry(item) : item)}
             key={item.company}
           />
         )
@@ -27,7 +27,7 @@ export function ProjectsList(isParodySite = false) {
     const spaces = projectsData.map((item) => {
         return (
           <WorkEntry
-            entry={((isParodySite) ? mutateWorkEntry(item) : item)}
+            entry={((isParodySite == true) ? mutateWorkEntry(item) : item)}
             key={item.company}
           />
         )
