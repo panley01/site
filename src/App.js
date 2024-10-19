@@ -12,7 +12,6 @@ const discordUser = {
   "username": "panley",
   "global_name": "Panley",
   "avatar": "0e8b4c725e023717079b6fb89d9dc04b",
-  "banner": "915b60df55bdf655b41ab2ac1ac6e2c3",
   "discriminator": "0",
   "public_flags": 4588096,
   "flags": 4588128,
