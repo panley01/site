@@ -16,19 +16,20 @@
       "description": "During my time in this position, I've built infrastructure for important e-comm & social moments with clients including Imagine Dragons, Linkin Park & Ice Spice."
     },
     {
-      "company": "Ubisoft",
-      "title": "Contract Developer",
-      "image": "ubisoft.png",
-      "started": 1696118461,
-      "ended": 1711929660
-    },
-    {
       "company": "CHANI",
       "title": "Contract Developer",
       "image": "chani.png",
       "started": 1681147008,
-      "ended": 2698782400,
+      "ended": 1722474061,
       "description": "Discord offered the opportunity to work with CHANI to bring an experience akin to their CHANI app to Discord as a Discord application. This app allows users to easily get astrology information about the current sky & moon as well as their own astrological charts & big 3 signs! This application launched as a larger brand push on the app directory in June 2023, where it took a featured spot."
+    },
+    {
+      "company": "Ubisoft",
+      "title": "Contract Developer",
+      "image": "ubisoft.png",
+      "started": 1696118461,
+      "ended": 1711929660,
+      "description": "Through Ubisoft Massive, I was given the opportunity to develop scaling, Discord-based software."
     },
     {
       "company": "Memrise",
@@ -43,7 +44,8 @@
       "title": "Contract Developer",
       "image": "epic.png",
       "started": 1670002800,
-      "ended": 1680656701
+      "ended": 1680656701,
+      "description": "Epic Games extended this opportunity to help them develop a Discord Application directly integrated with the Fortnite game, to surface leaderboards for in-game activity inside of Discord."
     },
     {
       "company": "Rythm",
@@ -109,7 +111,8 @@
       "title": "Consultant",
       "image": "fiverr.png",
       "started": 1656709200,
-      "ended": 1658274000
+      "ended": 1658274000,
+      "description": "Fiverr, investigating opportunites on the Discord platform, consulted me to discuss the viability of creating a Discord Application."
     },
     {
       "company": "Ping.gg",
