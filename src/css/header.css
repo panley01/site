@@ -10,49 +10,49 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
 .container {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(13, 12, 14);
-  }
-  
-  .header {
-    position: relative;
-    font-size: 5vw;
-    background-color: rgb(13, 12, 14);
-    z-index: 10;
-    color: whitesmoke
-  }
-  
-  .prefix {
-    position: absolute;
-    left: 0;
-    z-index: -1;
-    transform: translate(0%);
-    opacity: 0;
-    transition: transform 250ms, opacity 200ms; ;
-    color: whitesmoke
-  }
-  
-  .header:hover .prefix {
-    opacity: 1;
-    transform: translate(-100%);
-  }
-  
-  .suffix {
-    position: absolute;
-    right: 0;
-    z-index: -1;
-    transform: translate(0%);
-    opacity: 0;
-    transition: transform 250ms, opacity 200ms; ;
-    width: max-content;
-    color: whitesmoke
-  }
-  
-  .header:hover .suffix {
-    opacity: 1;
-    transform: translate(100%);
-  }
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(13, 12, 14);
+}
+
+.header {
+  position: relative;
+  font-size: 5vw;
+  background-color: rgb(13, 12, 14);
+  z-index: 10;
+  color: whitesmoke
+}
+
+.header a {
+  color: inherit;
+  background-color: inherit;
+}
+
+.prefix, .suffix {
+  position: absolute;
+  z-index: -1;
+  transform: translate(0%);
+  opacity: 0;
+  transition: transform 250ms, opacity 200ms;
+  color: whitesmoke
+}
+
+.prefix { left: 0 }
+
+.suffix {
+  right: 0;
+  width: max-content
+}
+
+.header:hover .prefix {
+  opacity: 1;
+  transform: translate(-100%);
+}
+
+.header:hover .suffix {
+  opacity: 1;
+  transform: translate(100%);
+}
