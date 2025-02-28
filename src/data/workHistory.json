@@ -13,7 +13,23 @@
       "image": "loaded.png",
       "started": 1711929660,
       "ended": 2698782400,
-      "description": "During my time in this position, I've built infrastructure for important e-comm & social moments with clients including Imagine Dragons, Linkin Park & Ice Spice."
+      "description": "During my time in this position, I've built infrastructure for important e-comm & social moments with clients including Imagine Dragons, Linkin Park & Ice Spice, as well as consulted on application development & Discord social strategy."
+    },
+    {
+      "company": "HiFi Labs",
+      "title": "Consultant",
+      "image": "hifi.png",
+      "started": 1738371661,
+      "ended": 2698782400,
+      "description": "In this position, I have provided Discord application security & implementation consultation."
+    },
+    {
+      "company": "Wildfire",
+      "title": "Consultant",
+      "image": "wildfire.png",
+      "started": 1733014861,
+      "ended": 2698782400,
+      "description": "In this position, I have provided Discord application & strategy consultation."
     },
     {
       "company": "CHANI",
@@ -121,6 +137,14 @@
       "started": 1641057600,
       "ended": 1648558800,
       "description": "Ping hired me to prepare their community for the launch of their upcoming product. During this setup, I operated within a strict time window due to the approaching launch of the afformentioned product to provide all the essentials for community management, seeing to automoderation needs & consolidating the join flow for new potential influx of users. Following my successful community management consultation with Ping labs, they requested I program a productivity bot for their team management. I built a robust deliverable within a relatively short time-frame, utilizing the Discord interaction kit to make configuration by end users as simple as possible."
+    },
+    {
+      "company": "HiFi Labs",
+      "title": "Consultant",
+      "image": "hifi.png",
+      "started": 1622505661,
+      "ended": 1646096461,
+      "description": "HiFi Labs initially reached out for Discord administration assistance as part of the Discord Moderator Program. During my time assisting them as part of the DMP, they requested assistance developing a Discord app for music sharing & community ranking. I created an application to their specification allowing for the sharing and ranking of songs, leveraging APIs from YouTube, Spotify & Catalog."
     },
     {
       "company": "Hyperbeam",
