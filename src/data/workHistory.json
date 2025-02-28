@@ -1,7 +1,7 @@
 [
     {
       "company": "NASCAR",
-      "title": "Contract Developer",
+      "title": "Application Developer & Administrator",
       "image": "nascar.png",
       "started": 1635730800,
       "ended": 2698782400,
@@ -9,7 +9,7 @@
     },
     {
       "company": "Loaded",
-      "title": "Contract Developer",
+      "title": "Application Developer & Consultant",
       "image": "loaded.png",
       "started": 1711929660,
       "ended": 2698782400,
@@ -45,7 +45,7 @@
       "image": "ubisoft.png",
       "started": 1696118461,
       "ended": 1711929660,
-      "description": "Through Ubisoft Massive, I was given the opportunity to develop scaling, Discord-based software."
+      "description": "Through Ubisoft Massive, I was given the opportunity to develop scaling software for data handling."
     },
     {
       "company": "Memrise",
@@ -53,7 +53,7 @@
       "image": "memrise.png",
       "started": 1676049408,
       "ended": 1698782400,
-      "description": "Discord offered the opportunity to work with Memrise to build a Discord application for their immersive chat bot, MemBot. I worked with the Memrise team to create this Discord application, leveraging many facets of the Discord API to make a strong private and public flow for the application. This application launched as a larger brand push on the app directory in June 2023, where it took a featured spot. The application performed very well on launch, rapidly earning users and server additions."
+      "description": "Discord offered the opportunity to work with Memrise to build an application for their immersive language learning AI-powered chat bot, MemBot. I worked with the Memrise team to create this application, leveraging many facets of the Discord API to make a strong private and public flow. This application launched as a larger brand push on the app directory in June 2023, where it took a featured spot. The application performed very well on launch, rapidly earning users and server additions."
     },
     {
       "company": "Epic Games",
