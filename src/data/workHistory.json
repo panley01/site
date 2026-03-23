@@ -1,5 +1,13 @@
 [
     {
+      "company": "Runpod",
+      "title": "Forward Deployed Engineer",
+      "image": "runpod.png",
+      "started": 1775490223,
+      "ended": 2698782400,
+      "description": "In my role as a Forward Deployed Engineer, I partner directly with enterprise customers and developers to seamlessly deploy, scale, and optimize their AI workloads on Runpod's distributed GPU cloud infrastructure. I act as the technical liaison between users and Runpod's internal engineering teams, troubleshooting complex deployment challenges and building reference implementations to ensure customers get the absolute most out of the platform."
+    },
+    {
       "company": "NASCAR",
       "title": "Application Developer & Administrator",
       "image": "nascar.png",
@@ -20,7 +28,7 @@
       "title": "Consultant",
       "image": "hifi.png",
       "started": 1738371661,
-      "ended": 2698782400,
+      "ended": 1743522223,
       "description": "In this position, I have provided Discord application security & implementation consultation."
     },
     {
