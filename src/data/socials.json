@@ -9,7 +9,7 @@
         "site": "discord",
         "name_prefix": "",
         "name_suffix": "",
-        "link": "https://contact.panley01.workers.dev"
+        "link": "https://discord.com/users/249287049482338305"
     },
     {
         "site": "email",
@@ -28,12 +28,6 @@
         "name_prefix": "",
         "name_suffix": "",
         "link": "https://hackerone.com/panley"
-    },
-    {
-        "site": "instagram",
-        "name_prefix": "_",
-        "name_suffix": "",
-        "link": "https://www.instagram.com/_panley/"
     },
     {
         "site": "reddit",
@@ -63,6 +57,6 @@
         "site": "linkedin",
         "name_prefix": "",
         "name_suffix": "01",
-        "link": "https://www.linkedin.com/in/panley-l-172250254/"
+        "link": "https://www.linkedin.com/in/panley01/"
     }
 ]
